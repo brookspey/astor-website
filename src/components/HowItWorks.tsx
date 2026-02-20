@@ -57,12 +57,14 @@ export default function HowItWorks() {
                   {phase.step}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-lg md:text-xl font-display text-slate-900 mb-1">
-                    {phase.title}
-                    <span className={`ml-2 text-xs font-semibold px-2.5 py-0.5 rounded-full border ${phase.color} inline-block align-middle`}>
+                  <div className="flex flex-wrap items-center gap-2 mb-1">
+                    <h3 className="text-lg md:text-xl font-display text-slate-900">
+                      {phase.title}
+                    </h3>
+                    <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border ${phase.color} whitespace-nowrap`}>
                       {phase.tag}
                     </span>
-                  </h3>
+                  </div>
                   <p className="text-sm md:text-base text-slate-500 leading-relaxed">
                     {phase.description}
                   </p>
