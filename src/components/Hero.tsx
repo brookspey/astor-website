@@ -18,8 +18,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            We help small businesses save time and make more money using practical AI systems. 
-            Lower labor costs, faster workflows, less chaos.
+            Less manual work. More revenue. Systems that run themselves.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
