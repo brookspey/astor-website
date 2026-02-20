@@ -37,6 +37,9 @@ export default function Navbar() {
           <Link href="/case-studies" className="text-slate-600 hover:text-slate-900 transition-all duration-300 text-sm font-medium">
             Case Studies
           </Link>
+          <Link href="/team" className="text-slate-600 hover:text-slate-900 transition-all duration-300 text-sm font-medium">
+            Meet the Team
+          </Link>
           <a
             href="https://calendly.com/peytonbrooks6"
             target="_blank"
@@ -71,6 +74,9 @@ export default function Navbar() {
           </Link>
           <Link href="/case-studies" className="block text-slate-600 hover:text-slate-900 text-sm font-medium py-2 transition-all duration-300" onClick={() => setMobileOpen(false)}>
             Case Studies
+          </Link>
+          <Link href="/team" className="block text-slate-600 hover:text-slate-900 text-sm font-medium py-2 transition-all duration-300" onClick={() => setMobileOpen(false)}>
+            Meet the Team
           </Link>
           <a
             href="https://calendly.com/peytonbrooks6"

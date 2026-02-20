@@ -2,7 +2,7 @@ const phases = [
   {
     step: '1',
     title: 'Discovery Call',
-    tag: 'Free · 15 min',
+    tag: 'Free · 30 min',
     description: 'A quick, casual conversation about your business. We\'ll ask about your biggest time sinks and figure out if AI is a good fit. No sales pitch.',
     color: 'bg-brand-50 border-brand-200 text-brand-700',
   },

@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            15 minutes · No pressure · No jargon
+            30 minutes · No pressure · No jargon
           </p>
         </div>
       </div>

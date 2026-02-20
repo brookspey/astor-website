@@ -7,7 +7,7 @@ export default function CTA() {
           Curious if AI makes sense for your business?
         </h2>
         <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-          Book a free 15-minute call. We&apos;ll ask a few questions about your
+          Book a free 30-minute call. We&apos;ll ask a few questions about your
           business and tell you honestly whether AI can help — and where.
           No pitch. No pressure.
         </p>
