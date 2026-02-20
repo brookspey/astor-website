@@ -17,12 +17,12 @@ export default function CaseStudiesPreview() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {caseStudies.map((cs) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {caseStudies.slice(0, 3).map((cs) => (
             <Link
               key={cs.slug}
               href={`/case-studies#${cs.slug}`}
-              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition group block"
+              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group block"
             >
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">{cs.emoji}</span>
@@ -30,7 +30,7 @@ export default function CaseStudiesPreview() {
                   {cs.industry}
                 </span>
               </div>
-              <h3 className="text-xl font-display text-slate-900 mb-3 group-hover:text-brand-700 transition">
+              <h3 className="text-xl font-display text-slate-900 mb-3 group-hover:text-brand-700 transition-all duration-300">
                 {cs.title}
               </h3>
               <div className="flex items-baseline gap-2 mb-4">
@@ -56,9 +56,9 @@ export default function CaseStudiesPreview() {
         <div className="text-center mt-12">
           <Link
             href="/case-studies"
-            className="inline-block text-brand-600 hover:text-brand-700 font-semibold text-lg transition"
+            className="inline-block text-brand-600 hover:text-brand-700 font-semibold text-lg transition-all duration-300"
           >
-            Read the full case studies →
+            See all 6 case studies →
           </Link>
         </div>
       </div>

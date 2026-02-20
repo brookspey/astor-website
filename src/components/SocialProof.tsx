@@ -16,8 +16,8 @@ export default function SocialProof() {
             { emoji: '📱', before: 'Leads slipping through cracks', after: 'Instant follow-up' },
             { emoji: '📋', before: 'Manual scheduling chaos', after: 'Smart & optimized' },
           ].map((item) => (
-            <div key={item.before} className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="text-3xl mb-3">{item.emoji}</div>
+            <div key={item.before} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 group">
+              <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300">{item.emoji}</div>
               <div className="text-slate-400 text-sm line-through mb-1">{item.before}</div>
               <div className="text-brand-700 font-semibold text-sm">{item.after}</div>
             </div>

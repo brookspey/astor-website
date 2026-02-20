@@ -15,13 +15,13 @@ export default function CTA() {
           href="https://calendly.com/peytonbrooks6"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-10 py-5 rounded-full text-xl font-semibold transition shadow-lg shadow-brand-600/20"
+          className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-10 py-5 rounded-full text-xl font-semibold transition-all duration-300 shadow-lg shadow-brand-600/20 hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto min-h-[44px] flex items-center justify-center"
         >
           Book Your Free Call
         </a>
         <p className="text-slate-400 text-sm mt-6">
           Or email us at{' '}
-          <a href="mailto:hello@tryastor.com" className="text-brand-600 hover:text-brand-700 transition font-medium">
+          <a href="mailto:hello@tryastor.com" className="text-brand-600 hover:text-brand-700 transition-all duration-300 font-medium">
             hello@tryastor.com
           </a>
         </p>

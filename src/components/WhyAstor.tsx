@@ -35,7 +35,7 @@ export default function WhyAstor() {
             </h2>
             <p className="text-slate-500 leading-relaxed">
               Most AI consultants chase enterprise deals. We&apos;d rather help
-              the restaurant owner who&apos;s tired of doing schedules at midnight.
+              the business owner who&apos;s tired of losing leads and doing everything manually.
             </p>
           </div>
 

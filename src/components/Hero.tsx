@@ -27,13 +27,13 @@ export default function Hero() {
               href="https://calendly.com/peytonbrooks6"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-brand-600/20 text-center"
+              className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg shadow-brand-600/20 text-center hover:shadow-xl hover:-translate-y-0.5 min-h-[44px] flex items-center justify-center"
             >
               Book a Free Discovery Call
             </a>
             <a
               href="#how-it-works"
-              className="text-slate-600 hover:text-slate-900 px-8 py-4 rounded-full text-lg font-medium transition text-center border border-slate-200 hover:border-slate-300"
+              className="text-slate-600 hover:text-slate-900 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 text-center border border-slate-200 hover:border-slate-300 hover:bg-slate-50 min-h-[44px] flex items-center justify-center"
             >
               See How It Works ↓
             </a>

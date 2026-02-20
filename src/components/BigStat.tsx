@@ -2,7 +2,7 @@ export default function BigStat() {
   return (
     <section className="py-24">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-4xl p-12 md:p-16 text-center relative overflow-hidden">
+        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-12 md:p-16 text-center relative overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-brand-500/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-48 h-48 bg-brand-400/10 rounded-full blur-3xl" />

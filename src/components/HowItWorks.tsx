@@ -50,7 +50,7 @@ export default function HowItWorks() {
           {phases.map((phase) => (
             <div
               key={phase.step}
-              className="relative bg-white border border-slate-100 rounded-3xl p-8 hover:shadow-md transition group"
+              className="relative bg-white border border-slate-100 rounded-3xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
             >
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center font-display text-lg">
@@ -79,7 +79,7 @@ export default function HowItWorks() {
             href="https://calendly.com/peytonbrooks6"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-brand-600/20"
+            className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg shadow-brand-600/20 hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto min-h-[44px] flex items-center justify-center"
           >
             Start with a Free Call →
           </a>
