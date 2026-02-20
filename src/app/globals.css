@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+::selection {
+  background-color: #dcfce9;
+  color: #14532d;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
