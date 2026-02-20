@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Astor" className="w-8 h-8" />
+          <img src="/logo.jpg" alt="Astor" className="w-8 h-8" />
           <span className="text-xl font-display text-slate-900">Astor</span>
         </Link>
 
