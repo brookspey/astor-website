@@ -10,13 +10,13 @@ export default function SocialProof() {
           there&apos;s barely time left to do what you&apos;re actually good at.
           That&apos;s where we come in.
         </p>
-        <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-3 gap-3 sm:gap-6 max-w-3xl mx-auto">
           {[
             { emoji: '😩', before: 'Hours on repetitive tasks', after: 'Done automatically' },
             { emoji: '📱', before: 'Leads slipping through cracks', after: 'Instant follow-up' },
             { emoji: '📋', before: 'Manual scheduling chaos', after: 'Smart & optimized' },
           ].map((item) => (
-            <div key={item.before} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 group">
+            <div key={item.before} className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 group">
               <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300">{item.emoji}</div>
               <div className="text-slate-400 text-sm line-through mb-1">{item.before}</div>
               <div className="text-brand-700 font-semibold text-sm">{item.after}</div>

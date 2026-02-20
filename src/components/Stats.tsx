@@ -9,7 +9,7 @@ export default function Stats() {
   return (
     <section className="py-20 border-y border-slate-100">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 gap-y-8 md:gap-12">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center group">
               <div className="text-2xl mb-3 group-hover:scale-110 transition-transform duration-300">{stat.icon}</div>

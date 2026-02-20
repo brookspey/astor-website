@@ -22,7 +22,7 @@ export default function CaseStudiesPreview() {
             <Link
               key={cs.slug}
               href={`/case-studies#${cs.slug}`}
-              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group block"
+              className="bg-white rounded-2xl md:rounded-3xl p-5 md:p-8 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group block"
             >
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">{cs.emoji}</span>

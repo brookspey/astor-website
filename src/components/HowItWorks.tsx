@@ -50,22 +50,20 @@ export default function HowItWorks() {
           {phases.map((phase) => (
             <div
               key={phase.step}
-              className="relative bg-white border border-slate-100 rounded-3xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+              className="relative bg-white border border-slate-100 rounded-2xl md:rounded-3xl p-5 md:p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
             >
-              <div className="flex items-start gap-5">
-                <div className="flex-shrink-0 w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center font-display text-lg">
+              <div className="flex items-start gap-4 md:gap-5">
+                <div className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 bg-slate-900 text-white rounded-xl md:rounded-2xl flex items-center justify-center font-display text-base md:text-lg">
                   {phase.step}
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-xl font-display text-slate-900">
-                      {phase.title}
-                    </h3>
-                    <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border ${phase.color}`}>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg md:text-xl font-display text-slate-900 mb-1">
+                    {phase.title}
+                    <span className={`ml-2 text-xs font-semibold px-2.5 py-0.5 rounded-full border ${phase.color} inline-block align-middle`}>
                       {phase.tag}
                     </span>
-                  </div>
-                  <p className="text-slate-500 leading-relaxed">
+                  </h3>
+                  <p className="text-sm md:text-base text-slate-500 leading-relaxed">
                     {phase.description}
                   </p>
                 </div>
@@ -79,7 +77,7 @@ export default function HowItWorks() {
             href="https://calendly.com/peytonbrooks6"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg shadow-brand-600/20 hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto min-h-[44px] flex items-center justify-center"
+            className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg shadow-brand-600/20 hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto min-h-[44px] flex items-center justify-center"
           >
             Start with a Free Call →
           </a>
