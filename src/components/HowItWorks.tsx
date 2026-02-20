@@ -53,12 +53,12 @@ export default function HowItWorks() {
               className="relative bg-white border border-slate-100 rounded-2xl md:rounded-3xl p-5 md:p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
             >
               <div className="flex items-start gap-4 md:gap-5">
-                <div className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 bg-slate-900 text-white rounded-xl md:rounded-2xl flex items-center justify-center font-display text-base md:text-lg">
+                <div className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 bg-slate-900 text-white rounded-xl md:rounded-2xl flex items-center justify-center font-display text-base md:text-lg mt-0.5">
                   {phase.step}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="flex flex-wrap items-center gap-2 mb-1">
-                    <h3 className="text-lg md:text-xl font-display text-slate-900">
+                  <div className="flex items-center gap-2 mb-1">
+                    <h3 className="text-lg md:text-xl font-display text-slate-900 whitespace-nowrap">
                       {phase.title}
                     </h3>
                     <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border ${phase.color} whitespace-nowrap`}>
