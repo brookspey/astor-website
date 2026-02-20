@@ -39,8 +39,8 @@ export default function Footer() {
           <div>
             <div className="text-slate-900 font-semibold text-sm mb-3">Contact</div>
             <div className="space-y-2 text-slate-400 text-sm">
-              <a href="mailto:hello@tryastor.com" className="block hover:text-slate-600 transition">
-                hello@tryastor.com
+              <a href="mailto:peytonbrooks6@gmail.com" className="block hover:text-slate-600 transition">
+                peytonbrooks6@gmail.com
               </a>
               <p>Palm Beach County, FL</p>
               <p>Serving all of South Florida</p>

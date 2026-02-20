@@ -21,8 +21,8 @@ export default function CTA() {
         </a>
         <p className="text-slate-400 text-sm mt-6">
           Or email us at{' '}
-          <a href="mailto:hello@tryastor.com" className="text-brand-600 hover:text-brand-700 transition-all duration-300 font-medium">
-            hello@tryastor.com
+          <a href="mailto:peytonbrooks6@gmail.com" className="text-brand-600 hover:text-brand-700 transition-all duration-300 font-medium">
+            peytonbrooks6@gmail.com
           </a>
         </p>
       </div>
