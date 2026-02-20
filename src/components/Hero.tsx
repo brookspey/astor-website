@@ -13,13 +13,13 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-display text-slate-900 leading-[1.1] mb-6">
-            Your business runs on hustle.{' '}
-            <span className="text-brand-600">Let AI handle the rest.</span>
+            Save 10–20 hours per week.{' '}
+            <span className="text-brand-600">Increase revenue with AI.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            We help small business owners automate the repetitive stuff — so you
-            can focus on the work that actually grows your business.
+            We help small businesses save time and make more money using practical AI systems. 
+            Lower labor costs, faster workflows, less chaos.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
