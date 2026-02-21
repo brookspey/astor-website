@@ -70,8 +70,10 @@ export default function Team() {
                 <div className="space-y-4 text-slate-600 leading-relaxed">
                   <p>
                     Before starting Astor, Peyton spent over four years as a Senior Product Manager at
-                    Informed.IQ, where he led AI-powered products in fintech — from automated loan
-                    origination to fraud detection systems processing millions of documents.
+                    Informed.IQ, where he built software for some of the largest banks in the U.S. —
+                    including JPMorgan Chase, Wells Fargo, Capital One, and Ally Financial — leading
+                    AI-powered products from automated loan origination to fraud detection systems
+                    processing millions of documents.
                   </p>
                   <p>
                     He saw firsthand how AI could transform operations at scale. But he also noticed
