@@ -4,12 +4,12 @@ export default function CTA() {
       <div className="max-w-3xl mx-auto px-6 text-center">
         <span className="text-3xl mb-4 block">👋</span>
         <h2 className="text-3xl md:text-5xl font-display text-slate-900 mb-6">
-          Curious if AI makes sense for your business?
+          Stop buying software you don&apos;t need.
         </h2>
         <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-          Book a free 30-minute call. We&apos;ll ask a few questions about your
-          business and tell you honestly whether AI can help — and where.
-          No pitch. No pressure.
+          Book a free 30-minute call. We&apos;ll tell you honestly what AI can 
+          do for your business — and show you how to do it yourself. 
+          No software to buy. No ongoing fees. Just answers.
         </p>
         <a
           href="https://calendly.com/peytonbrooks6"

@@ -7,7 +7,7 @@ const reasons = [
   {
     icon: '🎯',
     title: 'Built for Your Size',
-    description: 'We work with businesses that have 2–50 employees. We know your world because it\'s the only world we work in.',
+    description: 'We work with businesses that have 2–50 employees. No enterprise fluff — just practical advice you can act on today.',
   },
   {
     icon: '📍',
@@ -15,9 +15,9 @@ const reasons = [
     description: 'Based in Palm Beach County. We\'re down the road, not in some call center. When you need us, we\'re here.',
   },
   {
-    icon: '💵',
-    title: 'No Surprises',
-    description: 'Our AI Assessment is $999. That\'s it. You\'ll know what everything costs before we start — always.',
+    icon: '🔓',
+    title: 'No Lock-In, Ever',
+    description: 'We don\'t sell software and we don\'t take commissions. You get a roadmap you own — and the knowledge to run it without us.',
   },
 ]
 
@@ -34,8 +34,8 @@ export default function WhyAstor() {
               We&apos;re not like other tech consultants
             </h2>
             <p className="text-slate-500 leading-relaxed">
-              Most AI consultants chase enterprise deals. We&apos;d rather help
-              the business owner who&apos;s tired of losing leads and doing everything manually.
+              Most consultants create dependency. We&apos;d rather teach you 
+              how to solve it yourself — then get out of the way.
             </p>
           </div>
 

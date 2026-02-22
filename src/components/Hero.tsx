@@ -9,17 +9,17 @@ export default function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">AI consulting built for small business</span>
+            <span className="text-brand-700 text-sm font-medium">No software to buy · No contracts · Just clarity</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-display text-slate-900 leading-[1.1] mb-6">
-            Less manual work. More revenue.{' '}
-            <span className="text-brand-600">Systems that run themselves.</span>
+            We don&apos;t sell you software.{' '}
+            <span className="text-brand-600">We show you how to fix it yourself.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            We help small businesses save time and make more money using practical AI systems. 
-            Lower labor costs, faster workflows, less chaos.
+            One assessment. One clear report. You walk away knowing exactly which AI tools 
+            to use, how to set them up, and how to stop paying for work a machine can do.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            30 minutes · No pressure · No jargon
+            30 minutes · No pitch · No jargon · No software to buy
           </p>
         </div>
       </div>
