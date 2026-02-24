@@ -13,8 +13,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-display text-slate-900 leading-[1.1] mb-6">
-            Less manual work. More revenue.{' '}
-            <span className="text-brand-600">Systems that run themselves.</span>
+            hi there
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
