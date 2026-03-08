@@ -1,10 +1,40 @@
 'use client'
 
+import { useState, FormEvent } from 'react'
 import { CALENDLY_URL, EMAIL } from '@/lib/constants'
 import { useInView } from '@/lib/useInView'
 
 export default function ContactContent() {
   const { ref, isVisible } = useInView(0.1)
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    setStatus('sending')
+
+    const form = e.currentTarget
+    const data = {
+      name: (form.elements.namedItem('name') as HTMLInputElement).value,
+      business: (form.elements.namedItem('business') as HTMLInputElement).value,
+      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
+      email: (form.elements.namedItem('email') as HTMLInputElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+    }
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+
+      if (!res.ok) throw new Error()
+      setStatus('sent')
+      form.reset()
+    } catch {
+      setStatus('error')
+    }
+  }
 
   return (
     <>
@@ -75,13 +105,14 @@ export default function ContactContent() {
             {/* Contact Form */}
             <div>
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Send Us a Message</h2>
-              <form className="space-y-5">
+              <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1.5">Name</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
+                    required
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
                     placeholder="John Smith"
                   />
@@ -113,6 +144,7 @@ export default function ContactContent() {
                       type="email"
                       id="email"
                       name="email"
+                      required
                       className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
                       placeholder="john@smithsplumbing.com"
                     />
@@ -123,6 +155,7 @@ export default function ContactContent() {
                   <textarea
                     id="message"
                     name="message"
+                    required
                     rows={4}
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 resize-none"
                     placeholder="Tell us about your business and what you're looking for..."
@@ -130,10 +163,17 @@ export default function ContactContent() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-slate-900 hover:bg-slate-800 text-white px-6 py-4 rounded-full font-semibold transition-all duration-300 hover:shadow-md"
+                  disabled={status === 'sending'}
+                  className="w-full bg-slate-900 hover:bg-slate-800 text-white px-6 py-4 rounded-full font-semibold transition-all duration-300 hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
                 </button>
+                {status === 'sent' && (
+                  <p className="text-green-600 text-sm text-center font-medium">Message sent! We&apos;ll be in touch soon.</p>
+                )}
+                {status === 'error' && (
+                  <p className="text-red-600 text-sm text-center font-medium">Something went wrong. Please try again or email us directly.</p>
+                )}
                 <p className="text-slate-400 text-xs text-center">
                   Or email us directly at{' '}
                   <a href={`mailto:${EMAIL}`} className="text-brand-600 hover:text-brand-700 transition-colors">
