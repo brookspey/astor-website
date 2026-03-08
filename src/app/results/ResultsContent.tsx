@@ -16,11 +16,11 @@ export default function ResultsContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Your agency promised these numbers.{' '}
-            <span className="text-brand-600">Astor actually delivers them.</span>
+            Real results.{' '}
+            <span className="text-brand-600">Real businesses. Powered by Astor.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Real results from real businesses that fired their agency and hired Astor.
+            Here&apos;s what happens when local businesses put Astor to work.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function ResultsContent() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-              After They Hired Astor
+              Astor In Action
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
               Same business. Different approach. Real results.

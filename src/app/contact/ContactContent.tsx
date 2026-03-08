@@ -16,10 +16,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            See what Astor would do <span className="text-brand-600">for your business</span>
+            See what Astor can do <span className="text-brand-600">for your business</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Book a free strategy call. We&apos;ll show you how Astor would audit your online presence, where you&apos;re losing to competitors, and exactly what Astor would fix on day one. No pitch deck. No BS.
+            Book a free strategy call. We&apos;ll walk through your online presence, show you where the biggest opportunities are, and demo exactly what Astor would do for your business. No pitch deck. No pressure.
           </p>
         </div>
       </section>

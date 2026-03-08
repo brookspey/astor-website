@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is an AI marketing agent that does what agencies can&apos;t — constantly researching SEO best practices, monitoring your competitors, tracking your KPIs, and evolving your strategy with every Google update. 24/7. No days off.
+            Astor is an AI marketing agent that researches SEO best practices, monitors your competitors, optimizes your online presence, and evolves your strategy with every Google update — 24/7, every single day.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free strategy call &middot; No long-term contracts &middot; Results or you don&apos;t pay
+            Free strategy call &middot; No long-term contracts &middot; Results in 90 days
           </p>
         </div>
       </div>

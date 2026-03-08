@@ -10,8 +10,8 @@ interface CTAProps {
 }
 
 export default function CTA({
-  headline = 'Stop paying agencies to underperform. Hire Astor.',
-  subtext = 'Book a free strategy call. We\'ll show you exactly where your current marketing is failing and what Astor would do differently — starting day one.',
+  headline = 'See what Astor can do for your business.',
+  subtext = 'Book a free strategy call. We\'ll audit your online presence and show you exactly what Astor would fix, build, and optimize — starting day one.',
 }: CTAProps) {
   const { ref, isVisible } = useInView()
 

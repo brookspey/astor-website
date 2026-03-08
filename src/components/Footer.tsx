@@ -13,7 +13,7 @@ export default function Footer() {
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Astor is your AI marketing agent.<br />
-              Always researching. Always optimizing. Never billing you $5k/month to do nothing.
+              Always researching. Always optimizing. Always working for your business.
             </p>
           </div>
           <div>

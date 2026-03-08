@@ -20,7 +20,7 @@ export default function HowItWorksContent() {
             <span className="text-brand-600">Watch it go to work.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Astor audits you against your competitors, you connect your accounts, and Astor executes everything — then keeps optimizing forever. No 6-month ramp-up. No waiting around.
+            Astor audits your online presence against competitors, you connect your accounts, and Astor executes — then keeps optimizing and evolving every single day.
           </p>
         </div>
       </section>
@@ -60,23 +60,23 @@ export default function HowItWorksContent() {
       <section className="py-24 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <span className="text-brand-400 text-sm font-semibold tracking-wider uppercase">
-            Why AI Beats Your Agency
+            Why AI Changes Everything
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-white mt-3 mb-6">
-            Your agency can&apos;t keep up. Astor can.
+            Marketing that gets smarter every day
           </h2>
           <p className="text-slate-400 text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-            Google&apos;s algorithm changes thousands of times a year. Your agency&apos;s playbook changes once. Astor doesn&apos;t sleep, doesn&apos;t take PTO, and doesn&apos;t spend half its time in status meetings about other clients.
+            Google&apos;s algorithm changes thousands of times a year. Astor adapts in real time — constantly researching what&apos;s working now, not what worked last quarter. It&apos;s like having a full-time SEO expert who never stops learning.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
               <div className="text-3xl font-bold text-brand-400 mb-2">Daily</div>
-              <p className="text-slate-400 text-sm">Astor monitors competitors and adjusts strategy — not once a month</p>
+              <p className="text-slate-400 text-sm">Astor monitors your competitors and adjusts your strategy every day</p>
             </div>
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
               <div className="text-3xl font-bold text-brand-400 mb-2">Real-time</div>
-              <p className="text-slate-400 text-sm">Astor detects and adapts to algorithm changes before your agency even notices</p>
+              <p className="text-slate-400 text-sm">Astor detects and adapts to algorithm changes as they happen</p>
             </div>
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
               <div className="text-3xl font-bold text-brand-400 mb-2">Every KPI</div>

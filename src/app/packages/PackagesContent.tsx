@@ -18,10 +18,10 @@ export default function PackagesContent() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
             Meet Astor.{' '}
-            <span className="text-brand-600">Your killer AI marketing agent.</span>
+            <span className="text-brand-600">Your AI marketing agent.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            When you hire Astor, you&apos;re getting an AI marketing agent that&apos;s constantly researching best practices, monitoring your competitors, and tracking every KPI that matters. No account managers juggling 40 clients. No templates. No excuses.
+            When you hire Astor, you get an AI marketing agent that&apos;s constantly researching best practices, monitoring your competitors, and tracking every KPI that matters — dedicated 100% to growing your business.
           </p>
         </div>
       </section>
@@ -80,11 +80,11 @@ export default function PackagesContent() {
 
           {/* Agency comparison callout */}
           <div className="mt-16 bg-slate-50 border border-slate-100 rounded-2xl p-8 md:p-10 text-center">
-            <h3 className="text-xl font-bold text-slate-900 mb-3">What you&apos;re really comparing</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">What makes Astor different</h3>
             <p className="text-slate-500 max-w-2xl mx-auto mb-6">
-              A traditional agency gives you an overworked account manager who updates your SEO once a month. Astor works on your business every single day — researching, optimizing, monitoring competitors, and adapting to every algorithm change in real time. It never takes PTO. It never forgets about you.
+              Astor works on your business every single day — researching SEO best practices, optimizing your content, monitoring competitors, and adapting to every algorithm change in real time. It never takes PTO. It never forgets about you. And it gets smarter every week.
             </p>
-            <p className="text-brand-600 font-semibold">Same results agencies promise. Astor actually delivers.</p>
+            <p className="text-brand-600 font-semibold">Always learning. Always optimizing. Always on.</p>
           </div>
         </div>
       </section>

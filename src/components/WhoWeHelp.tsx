@@ -50,10 +50,10 @@ export default function WhoWeHelp() {
             Who We Help
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Astor works for businesses like yours
+            Built for local businesses that live and die by search
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Your customers Google before they buy. If you&apos;re not on page 1, you&apos;re invisible. Your agency can&apos;t fix it. Astor can.
+            Your customers Google before they buy. Astor makes sure they find you first — and keeps you there.
           </p>
         </div>
 

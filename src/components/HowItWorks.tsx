@@ -18,10 +18,10 @@ export default function HowItWorks() {
             How It Works
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Audit. Connect. Let Astor execute.
+            Audit. Connect. Let Astor go to work.
           </h2>
           <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            Astor audits you against your competitors, you hand over the keys, and Astor does the rest — then never stops improving.
+            Astor audits your online presence, you connect your accounts, and Astor handles the rest — then keeps getting smarter every day.
           </p>
         </div>
 
