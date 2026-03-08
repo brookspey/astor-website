@@ -1,11 +1,9 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
-import Stats from '@/components/Stats'
-import SocialProof from '@/components/SocialProof'
+import WhoWeHelp from '@/components/WhoWeHelp'
 import HowItWorks from '@/components/HowItWorks'
-import CaseStudiesPreview from '@/components/CaseStudiesPreview'
-import BigStat from '@/components/BigStat'
-import WhyAstor from '@/components/WhyAstor'
+import PackageOverview from '@/components/PackageOverview'
+import TrustSection from '@/components/TrustSection'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 
@@ -14,12 +12,10 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Stats />
-      <SocialProof />
+      <WhoWeHelp />
       <HowItWorks />
-      <CaseStudiesPreview />
-      <BigStat />
-      <WhyAstor />
+      <PackageOverview />
+      <TrustSection />
       <CTA />
       <Footer />
     </main>

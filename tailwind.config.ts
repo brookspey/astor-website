@@ -40,8 +40,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['DM Sans', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['DM Serif Display', 'Georgia', 'serif'],
+        sans: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
       },
     },
   },

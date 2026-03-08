@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { NAV_LINKS, CTA_TEXT, EMAIL } from '@/lib/constants'
 
 export default function Footer() {
   return (
@@ -8,49 +9,55 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <img src="/logo.png" alt="Astor" className="w-7 h-7" />
-              <span className="text-lg font-display text-slate-900">Astor</span>
+              <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              AI consulting for small businesses.<br />
-              South Florida&apos;s partner for working smarter.
+              Helping local businesses get found online.<br />
+              AI-powered marketing that actually works.
             </p>
           </div>
           <div>
             <div className="text-slate-900 font-semibold text-sm mb-3">Navigate</div>
             <div className="space-y-2">
-              <Link href="/#how-it-works" className="block text-slate-400 hover:text-slate-600 text-sm transition">
-                How It Works
-              </Link>
-              <Link href="/case-studies" className="block text-slate-400 hover:text-slate-600 text-sm transition">
-                Case Studies
-              </Link>
-              <a
-                href="https://calendly.com/peytonbrooks6"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-slate-400 hover:text-slate-600 text-sm transition"
-              >
-                Book a Call
-              </a>
+              {NAV_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block text-slate-400 hover:text-slate-600 text-sm transition"
+                >
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </div>
           <div>
             <div className="text-slate-900 font-semibold text-sm mb-3">Contact</div>
             <div className="space-y-2 text-slate-400 text-sm">
-              <a href="mailto:peytonbrooks6@gmail.com" className="block hover:text-slate-600 transition">
-                peytonbrooks6@gmail.com
+              <a href={`mailto:${EMAIL}`} className="block hover:text-slate-600 transition">
+                {EMAIL}
               </a>
               <p>Palm Beach County, FL</p>
               <p>Serving all of South Florida</p>
             </div>
           </div>
         </div>
+
+        {/* Mini CTA */}
+        <div className="border-t border-slate-100 pt-8 mb-8 text-center">
+          <Link
+            href="/contact"
+            className="inline-block bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
+          >
+            {CTA_TEXT}
+          </Link>
+        </div>
+
         <div className="border-t border-slate-100 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-sm">
-            © {new Date().getFullYear()} Astor. All rights reserved.
+            &copy; {new Date().getFullYear()} Astor. All rights reserved.
           </p>
           <p className="text-slate-300 text-xs">
-            Palm Beach · Martin · Broward · Miami-Dade
+            Palm Beach &middot; Martin &middot; Broward &middot; Miami-Dade
           </p>
         </div>
       </div>
