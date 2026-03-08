@@ -16,11 +16,11 @@ export default function HowItWorksContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Your agency takes months to ramp up.{' '}
-            <span className="text-brand-600">We start day one.</span>
+            Audit. Connect. Execute.{' '}
+            <span className="text-brand-600">Then never stop improving.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            No &ldquo;discovery phases&rdquo; that bill for learning your business. No waiting 6 months to see if anything moves. Your AI expert hits the ground running.
+            We audit you against your competitors, you give us the keys, and AI executes everything — then keeps optimizing forever. No 6-month ramp-up. No waiting around.
           </p>
         </div>
       </section>

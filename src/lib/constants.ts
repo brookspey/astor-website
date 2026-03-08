@@ -27,39 +27,39 @@ export const AGENCY_PROBLEMS = [
 ]
 
 export const PROCESS_STEPS_MINI = [
-  { step: '1', title: 'Audit', description: 'We tear apart your online presence, your competitors, and your market. No fluff — just what\'s broken and what\'s costing you customers.' },
-  { step: '2', title: 'Build & Optimize', description: 'We rebuild your foundation — website, SEO, Google Business Profile — using AI that\'s trained on what actually ranks right now.' },
-  { step: '3', title: 'Monitor & Evolve', description: 'Your AI expert never stops. It watches competitors, tracks every KPI, and adapts your strategy in real time. Not once a quarter.' },
+  { step: '1', title: 'Full SEO Audit', description: 'We run a comprehensive audit of your online presence and stack you up against your competitors. You\'ll see exactly where you\'re losing and why.' },
+  { step: '2', title: 'Connect & Execute', description: 'Give us access to your website, Google Business Profile, and accounts. Our AI implements every fix from the audit — no waiting, no excuses.' },
+  { step: '3', title: 'Optimize & Grow', description: 'Your AI expert never stops. It monitors competitors, tracks every KPI, and adapts your strategy in real time. Not once a quarter.' },
 ]
 
 export const PROCESS_STEPS_FULL = [
   {
     step: '1',
-    title: 'Strategy Call',
-    description: 'We\'ll be honest about what\'s working, what isn\'t, and whether your current agency is actually doing anything. Free, no pitch.',
+    title: 'Full SEO Audit',
+    description: 'We run a deep competitive audit — your website, rankings, Google Business Profile, citations, reviews, and content vs. your top local competitors. You\'ll see exactly where you\'re losing customers and why.',
     color: 'bg-brand-50 border-brand-200 text-brand-700',
   },
   {
     step: '2',
-    title: 'Deep Audit',
-    description: 'We reverse-engineer your top competitors, expose gaps in your SEO, and map every opportunity they\'re exploiting that you\'re not.',
+    title: 'Connect Your Accounts',
+    description: 'Give us access to your website, Google Business Profile, Google Ads, and analytics. That\'s it. No long onboarding calls, no "discovery phases" that bill for learning your business.',
     color: 'bg-blue-50 border-blue-200 text-blue-700',
   },
   {
     step: '3',
-    title: 'Build & Launch',
-    description: 'We build or rebuild your website, optimize every listing, and deploy AI systems that continuously research and implement best practices.',
+    title: 'AI Executes the Audit',
+    description: 'Our AI takes every recommendation from the audit and implements it — on-page SEO fixes, content optimization, GBP updates, citation cleanup, technical fixes. What takes an agency weeks, AI does in days.',
     color: 'bg-amber-50 border-amber-200 text-amber-700',
   },
   {
     step: '4',
-    title: 'Constant Optimization',
-    description: 'This is where agencies fail and we don\'t. Your AI expert monitors rankings, competitors, and KPIs daily — adjusting strategy before problems become crises.',
+    title: 'Optimize & Grow',
+    description: 'This is where agencies fail and we don\'t. Your AI expert monitors rankings, competitors, and KPIs daily — adjusting strategy before problems become crises. Ongoing content, reviews, and ad optimization that compounds.',
     color: 'bg-purple-50 border-purple-200 text-purple-700',
   },
   {
     step: '5',
-    title: 'Transparent Reporting',
+    title: 'Report & Adjust',
     description: 'No vanity metrics. No confusing PDFs. You see exactly what moved, what\'s working, and what we\'re doing next. Real numbers, real accountability.',
     color: 'bg-teal-50 border-teal-200 text-teal-700',
   },
