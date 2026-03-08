@@ -6,7 +6,7 @@ import HowItWorksContent from './HowItWorksContent'
 
 export const metadata: Metadata = {
   title: 'How It Works — Astor',
-  description: 'Our 5-step process to get your local business found online. From strategy call to ongoing growth.',
+  description: 'Your agency takes months to ramp up. We start day one. See our 5-step process to replace your marketing agency with AI that actually delivers.',
 }
 
 export default function HowItWorksPage() {

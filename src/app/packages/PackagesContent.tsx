@@ -17,10 +17,11 @@ export default function PackagesContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Everything you need to <span className="text-brand-600">get found online</span>
+            Everything your agency does.{' '}
+            <span className="text-brand-600">Except it actually works.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Two straightforward packages. No hidden fees, no long-term contracts. Just the marketing your business actually needs.
+            When you buy Astor, you&apos;re buying an AI-powered SEO expert that&apos;s constantly researching best practices, monitoring your competitors, and tracking every KPI that matters. No account managers juggling 40 clients. No templates. No excuses.
           </p>
         </div>
       </section>
@@ -77,11 +78,13 @@ export default function PackagesContent() {
             </div>
           </div>
 
-          {/* Visual comparison note */}
-          <div className="mt-12 text-center">
-            <p className="text-slate-400 text-sm">
-              Growth includes everything in Foundation — plus the ongoing engine that keeps you growing.
+          {/* Agency comparison callout */}
+          <div className="mt-16 bg-slate-50 border border-slate-100 rounded-2xl p-8 md:p-10 text-center">
+            <h3 className="text-xl font-bold text-slate-900 mb-3">What you&apos;re really comparing</h3>
+            <p className="text-slate-500 max-w-2xl mx-auto mb-6">
+              A traditional agency gives you an overworked account manager who updates your SEO once a month and sends you a report full of numbers that don&apos;t matter. Astor gives you an AI expert that works on your business every single day — researching, optimizing, monitoring competitors, and adapting to every algorithm change in real time.
             </p>
+            <p className="text-brand-600 font-semibold">Same results agencies promise. Actually delivered.</p>
           </div>
         </div>
       </section>

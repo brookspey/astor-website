@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
+import AgencyTruth from '@/components/AgencyTruth'
 import WhoWeHelp from '@/components/WhoWeHelp'
 import HowItWorks from '@/components/HowItWorks'
 import PackageOverview from '@/components/PackageOverview'
@@ -12,6 +13,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <AgencyTruth />
       <WhoWeHelp />
       <HowItWorks />
       <PackageOverview />

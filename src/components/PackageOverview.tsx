@@ -18,10 +18,10 @@ export default function PackageOverview() {
             Packages
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Two plans. Zero guesswork.
+            Hire your AI expert. Fire your agency.
           </h2>
-          <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            Choose the level of support that fits your business. Both include everything you need to start showing up online.
+          <p className="text-slate-500 text-lg max-w-2xl mx-auto">
+            Everything a $5k/month agency does — except it actually works, constantly evolves, and costs a fraction of the price.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function PackageOverview() {
                 href="/packages"
                 className="text-brand-600 hover:text-brand-700 font-semibold text-sm transition-all duration-300"
               >
-                Learn more &rarr;
+                See everything you get &rarr;
               </Link>
             </div>
           ))}

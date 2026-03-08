@@ -6,7 +6,7 @@ import ResultsContent from './ResultsContent'
 
 export const metadata: Metadata = {
   title: 'Results — Astor',
-  description: 'See the results local businesses get when they start showing up online. Real scenarios, real numbers.',
+  description: 'Your agency promised these numbers. We actually deliver them. See real results from businesses that switched to AI-powered marketing.',
 }
 
 export default function ResultsPage() {
@@ -14,7 +14,7 @@ export default function ResultsPage() {
     <main>
       <Navbar />
       <ResultsContent />
-      <CTA headline="Want results like these?" subtext="Let's talk about your business. We'll show you exactly what's possible." />
+      <CTA headline="Want results like these?" subtext="Stop waiting for your agency to figure it out. Book a free strategy call and see what AI-powered marketing looks like for your business." />
       <Footer />
     </main>
   )

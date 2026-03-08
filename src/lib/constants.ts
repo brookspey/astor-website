@@ -11,49 +11,56 @@ export const NAV_LINKS = [
 ]
 
 export const BUSINESS_TYPES = [
-  { name: 'Restaurants', icon: 'utensils', description: 'Fill tables and get found on Google Maps' },
-  { name: 'Dental Practices', icon: 'tooth', description: 'Attract new patients searching for care nearby' },
-  { name: 'Plumbers & HVAC', icon: 'wrench', description: 'Show up first when pipes burst at midnight' },
-  { name: 'Law Firms', icon: 'scale', description: 'Turn local searches into booked consultations' },
-  { name: 'Home Services', icon: 'home', description: 'Dominate your service area online' },
-  { name: 'Retail & Shops', icon: 'store', description: 'Drive foot traffic with local visibility' },
+  { name: 'Restaurants', icon: 'utensils', description: 'Stop paying for ads that don\'t fill tables. Show up when hungry people search.' },
+  { name: 'Dental Practices', icon: 'tooth', description: 'The practice down the street is outranking you. We fix that.' },
+  { name: 'Plumbers & HVAC', icon: 'wrench', description: 'When pipes burst at 2am, your customers Google it. Be the first result.' },
+  { name: 'Law Firms', icon: 'scale', description: 'Your competitors are paying agencies $5k/month for mediocre SEO. You don\'t have to.' },
+  { name: 'Home Services', icon: 'home', description: 'Own your service area online. Not just a listing — dominance.' },
+  { name: 'Retail & Shops', icon: 'store', description: 'Foot traffic starts with a Google search. Make sure it ends at your door.' },
+]
+
+export const AGENCY_PROBLEMS = [
+  { problem: 'You\'re paying $3–5k/month', detail: 'Most of that goes to overhead, account managers, and fancy offices — not your results.' },
+  { problem: 'Your "strategist" manages 40 accounts', detail: 'They spend maybe 2 hours a month on yours. The rest is copy-paste templates.' },
+  { problem: 'You get a PDF report you don\'t understand', detail: 'Vanity metrics designed to look impressive. No real accountability for growth.' },
+  { problem: 'SEO "best practices" from 2019', detail: 'Google\'s algorithm changes weekly. Your agency\'s playbook doesn\'t.' },
 ]
 
 export const PROCESS_STEPS_MINI = [
-  { step: '1', title: 'Audit', description: 'We analyze your online presence and find what\'s holding you back.' },
-  { step: '2', title: 'Build & Optimize', description: 'We fix your foundation — website, SEO, Google Business Profile, citations.' },
-  { step: '3', title: 'Grow', description: 'Ongoing content, ads, and reviews that compound over time.' },
+  { step: '1', title: 'Audit', description: 'We tear apart your online presence, your competitors, and your market. No fluff — just what\'s broken and what\'s costing you customers.' },
+  { step: '2', title: 'Build & Optimize', description: 'We rebuild your foundation — website, SEO, Google Business Profile — using AI that\'s trained on what actually ranks right now.' },
+  { step: '3', title: 'Monitor & Evolve', description: 'Your AI expert never stops. It watches competitors, tracks every KPI, and adapts your strategy in real time. Not once a quarter.' },
 ]
 
 export const PROCESS_STEPS_FULL = [
   {
     step: '1',
     title: 'Strategy Call',
-    description: 'A quick conversation about your business, your goals, and where you\'re losing customers online. Free, no pressure.',
+    description: 'We\'ll be honest about what\'s working, what isn\'t, and whether your current agency is actually doing anything. Free, no pitch.',
     color: 'bg-brand-50 border-brand-200 text-brand-700',
   },
   {
     step: '2',
-    title: 'Audit & Roadmap',
-    description: 'We do a deep-dive into your website, search rankings, Google Business Profile, and competitors. You get a clear action plan.',
+    title: 'Deep Audit',
+    description: 'We reverse-engineer your top competitors, expose gaps in your SEO, and map every opportunity they\'re exploiting that you\'re not.',
     color: 'bg-blue-50 border-blue-200 text-blue-700',
   },
   {
     step: '3',
     title: 'Build & Launch',
-    description: 'We build or rebuild your website, optimize your listings, and set up the systems that get you found online.',
+    description: 'We build or rebuild your website, optimize every listing, and deploy AI systems that continuously research and implement best practices.',
     color: 'bg-amber-50 border-amber-200 text-amber-700',
   },
   {
     step: '4',
-    title: 'Optimize & Grow',
-    description: 'Ongoing SEO, content creation, review generation, and ad management that compounds month over month.',
+    title: 'Constant Optimization',
+    description: 'This is where agencies fail and we don\'t. Your AI expert monitors rankings, competitors, and KPIs daily — adjusting strategy before problems become crises.',
     color: 'bg-purple-50 border-purple-200 text-purple-700',
   },
   {
     step: '5',
-    title: 'Report & Adjust',
-    description: 'Monthly reports showing exactly what\'s working. We adjust the strategy based on real data, not guesses.',
+    title: 'Transparent Reporting',
+    description: 'No vanity metrics. No confusing PDFs. You see exactly what moved, what\'s working, and what we\'re doing next. Real numbers, real accountability.',
     color: 'bg-teal-50 border-teal-200 text-teal-700',
   },
 ]
@@ -61,54 +68,54 @@ export const PROCESS_STEPS_FULL = [
 export const PACKAGES = {
   foundation: {
     name: 'Foundation',
-    tagline: 'Everything you need to get found online.',
+    tagline: 'Your own AI-powered SEO expert. Always on, always optimizing.',
     features: [
-      'Custom website (built to convert)',
-      'On-page SEO optimization',
-      'Google Business Profile setup & optimization',
-      'Local citation building',
-      'Monthly performance reporting',
-      'Ongoing website maintenance',
+      'Custom website built to convert (not just look pretty)',
+      'AI-driven SEO that evolves with Google\'s algorithm',
+      'Google Business Profile optimization & management',
+      'Local citation building & cleanup',
+      'Competitor monitoring (know exactly what they\'re doing)',
+      'Monthly KPI reporting with real numbers',
     ],
   },
   growth: {
     name: 'Growth',
-    tagline: 'Foundation + the engine that keeps you growing.',
+    tagline: 'Foundation + the full growth engine traditional agencies charge $5k+ for.',
     features: [
       'Everything in Foundation',
-      'Monthly blog content (SEO-optimized)',
-      'Review generation system',
-      'Google Ads management',
-      'Monthly strategy calls',
-      'Competitor monitoring',
+      'AI-generated blog content optimized for what people actually search',
+      'Automated review generation system',
+      'Google Ads management (with AI bid optimization)',
+      'Monthly strategy calls with real humans',
+      'Competitor strategy teardowns',
     ],
   },
 }
 
 export const METRICS = [
-  { value: 'Page 1', label: 'Google rankings for local searches' },
-  { value: '3x', label: 'More reviews in 90 days' },
-  { value: '40%', label: 'Lower cost per lead' },
-  { value: '24/7', label: 'Website that works while you sleep' },
+  { value: 'Page 1', label: 'Google rankings — where agencies promise but rarely deliver' },
+  { value: '3x', label: 'More reviews in 90 days — automated, not begged for' },
+  { value: '40%', label: 'Lower cost per lead than traditional agency clients' },
+  { value: '24/7', label: 'Your AI expert never clocks out, takes PTO, or "circles back"' },
 ]
 
 export const SCENARIOS = [
   {
     business: 'Local Dentist',
-    challenge: 'Invisible on Google Maps, losing patients to the practice down the street.',
-    solution: 'Rebuilt website for conversions, optimized Google Business Profile, launched review generation.',
-    results: ['Page 1 for "dentist near me"', '47 new reviews in 90 days', '3x more appointment requests'],
+    challenge: 'Paying an agency $4k/month. Rankings hadn\'t moved in 6 months. No idea where the money was going.',
+    solution: 'Fired the agency. Deployed Astor. AI rebuilt the site for conversions, rewrote every page for search intent, and launched automated review generation.',
+    results: ['Page 1 for "dentist near me" in 8 weeks', '47 new reviews in 90 days', '3x more appointment requests — at a fraction of the old agency cost'],
   },
   {
     business: 'Plumbing Company',
-    challenge: 'Spending $3k/month on ads with no idea what was working.',
-    solution: 'Rebuilt landing pages, restructured Google Ads, added call tracking.',
-    results: ['Cost per lead dropped 52%', 'Phone calls up 80%', 'Stopped wasting budget on bad keywords'],
+    challenge: 'Agency was "managing" Google Ads but couldn\'t explain why cost per lead kept climbing. Classic agency move: blame the market.',
+    solution: 'AI audited the account, killed wasteful keywords the agency never touched, rebuilt landing pages for conversion, added call tracking they never set up.',
+    results: ['Cost per lead dropped 52% in 60 days', 'Phone calls up 80%', 'Finally knew which dollars were working and which were burning'],
   },
   {
     business: 'Italian Restaurant',
-    challenge: 'Great food, empty tables on weekdays. No online presence beyond a basic Facebook page.',
-    solution: 'Built a fast website, optimized for local search, launched Google Business Profile strategy.',
-    results: ['Weekday reservations up 35%', '"Italian restaurant near me" — page 1', '60+ new Google reviews'],
+    challenge: 'Previous "marketing guy" built a slow website and disappeared. Great food, empty tables, zero online presence.',
+    solution: 'Built a fast, conversion-optimized site. AI handles ongoing SEO, Google Business Profile updates, and content — things a traditional agency would charge $3k/month for.',
+    results: ['Weekday reservations up 35%', '"Italian restaurant near me" — page 1 in 6 weeks', '60+ new Google reviews via automated system'],
   },
 ]

@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Helping local businesses get found online.<br />
-              AI-powered marketing that actually works.
+              Your AI-powered SEO expert.<br />
+              Always researching. Always optimizing. Never billing you $5k/month to do nothing.
             </p>
           </div>
           <div>

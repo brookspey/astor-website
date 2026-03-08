@@ -14,13 +14,13 @@ export default function TrustSection() {
           className={`text-center mb-16 fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-            What&apos;s Possible
+            What Happens When You Switch
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Results that speak for themselves
+            Businesses that fired their agency and hired Astor
           </h2>
-          <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            Here&apos;s what happens when local businesses start showing up online.
+          <p className="text-slate-500 text-lg max-w-2xl mx-auto">
+            Same businesses. Same markets. Wildly different results.
           </p>
         </div>
 

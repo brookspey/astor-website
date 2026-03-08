@@ -16,10 +16,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Let&apos;s get your business <span className="text-brand-600">found online</span>
+            Let&apos;s show you what your agency <span className="text-brand-600">should have been doing</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Book a free strategy call or send us a message. No pressure, no jargon — just a real conversation about your business.
+            Book a free strategy call. We&apos;ll audit your online presence live, show you where you&apos;re losing customers, and explain exactly what an AI-powered approach looks like. No pitch deck. No BS.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Book a Strategy Call</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  The fastest way to get started. We&apos;ll look at your online presence, identify quick wins, and map out a plan to get you more customers.
+                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly where you&apos;re losing and what we&apos;d do differently than your current agency.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -50,22 +50,22 @@ export default function ContactContent() {
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">1</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Quick intro</p>
-                    <p className="text-slate-500 text-sm">Tell us about your business and goals</p>
+                    <p className="text-slate-700 font-medium">Where you stand</p>
+                    <p className="text-slate-500 text-sm">Tell us about your business, your current marketing, and what&apos;s not working</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">2</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Live audit</p>
-                    <p className="text-slate-500 text-sm">We&apos;ll pull up your online presence and show you what&apos;s working (and what isn&apos;t)</p>
+                    <p className="text-slate-700 font-medium">Live teardown</p>
+                    <p className="text-slate-500 text-sm">We&apos;ll pull up your site, your competitors, and your rankings — and show you what&apos;s broken</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Clear next steps</p>
-                    <p className="text-slate-500 text-sm">You&apos;ll leave with a plan, whether we work together or not</p>
+                    <p className="text-slate-700 font-medium">The honest truth</p>
+                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what to do — whether you hire us or not</p>
                   </div>
                 </div>
               </div>

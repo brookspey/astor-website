@@ -16,10 +16,11 @@ export default function HowItWorksContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            From invisible to <span className="text-brand-600">impossible to miss</span>
+            Your agency takes months to ramp up.{' '}
+            <span className="text-brand-600">We start day one.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            A clear, repeatable process that gets local businesses showing up where their customers are searching.
+            No &ldquo;discovery phases&rdquo; that bill for learning your business. No waiting 6 months to see if anything moves. Your AI expert hits the ground running.
           </p>
         </div>
       </section>
@@ -55,31 +56,31 @@ export default function HowItWorksContent() {
         </div>
       </section>
 
-      {/* Why AI */}
-      <section className="py-24 bg-slate-50">
+      {/* Why AI — reframed as agency killer */}
+      <section className="py-24 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-            Why AI?
+          <span className="text-brand-400 text-sm font-semibold tracking-wider uppercase">
+            Why AI Beats Your Agency
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-6">
-            AI is the tool. Results are the point.
+          <h2 className="text-3xl md:text-5xl font-bold text-white mt-3 mb-6">
+            Your agency can&apos;t keep up. Literally.
           </h2>
-          <p className="text-slate-500 text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-            We use AI to work faster, smarter, and more efficiently — so you get better results at a lower cost. But we never lose sight of what matters: more customers finding your business.
+          <p className="text-slate-400 text-lg leading-relaxed max-w-2xl mx-auto mb-12">
+            Google&apos;s algorithm changes thousands of times a year. Your agency&apos;s playbook changes once. AI doesn&apos;t sleep, doesn&apos;t take PTO, and doesn&apos;t spend half its time in status meetings about other clients.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
-            <div className="bg-white border border-slate-100 rounded-2xl p-6">
-              <div className="text-3xl font-bold text-brand-600 mb-2">10x</div>
-              <p className="text-slate-500 text-sm">Faster content creation than traditional agencies</p>
+            <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
+              <div className="text-3xl font-bold text-brand-400 mb-2">Daily</div>
+              <p className="text-slate-400 text-sm">Competitor monitoring and strategy adjustment — not once a month</p>
             </div>
-            <div className="bg-white border border-slate-100 rounded-2xl p-6">
-              <div className="text-3xl font-bold text-brand-600 mb-2">24/7</div>
-              <p className="text-slate-500 text-sm">Monitoring and optimization that never sleeps</p>
+            <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
+              <div className="text-3xl font-bold text-brand-400 mb-2">Real-time</div>
+              <p className="text-slate-400 text-sm">Algorithm changes detected and adapted to before your agency even notices</p>
             </div>
-            <div className="bg-white border border-slate-100 rounded-2xl p-6">
-              <div className="text-3xl font-bold text-brand-600 mb-2">50%</div>
-              <p className="text-slate-500 text-sm">Lower cost than hiring a traditional marketing agency</p>
+            <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
+              <div className="text-3xl font-bold text-brand-400 mb-2">Every KPI</div>
+              <p className="text-slate-400 text-sm">Calls, leads, revenue — not impressions, clicks, and other vanity metrics</p>
             </div>
           </div>
         </div>

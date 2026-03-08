@@ -50,10 +50,10 @@ export default function WhoWeHelp() {
             Who We Help
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Built for businesses like yours
+            Local businesses tired of wasting money on marketing that doesn&apos;t work
           </h2>
-          <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            If your customers search Google before they buy, we can help you show up first.
+          <p className="text-slate-500 text-lg max-w-2xl mx-auto">
+            Your customers Google before they buy. If you&apos;re not on page 1, you&apos;re invisible. Your agency knows this — they just can&apos;t fix it.
           </p>
         </div>
 

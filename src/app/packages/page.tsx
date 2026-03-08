@@ -6,7 +6,7 @@ import PackagesContent from './PackagesContent'
 
 export const metadata: Metadata = {
   title: 'Packages — Astor',
-  description: 'Two clear packages to get your local business found online. No hidden fees, no long contracts.',
+  description: 'Everything your marketing agency does — except it actually works. AI-powered SEO that constantly researches, monitors, and evolves.',
 }
 
 export default function PackagesPage() {
@@ -14,7 +14,7 @@ export default function PackagesPage() {
     <main>
       <Navbar />
       <PackagesContent />
-      <CTA headline="Not sure which package is right?" subtext="Book a free strategy call and we'll recommend the best fit for your business and goals." />
+      <CTA headline="Ready to stop subsidizing your agency's overhead?" subtext="Book a free strategy call. We'll show you exactly what your current agency is (and isn't) doing — and what Astor would do differently." />
       <Footer />
     </main>
   )

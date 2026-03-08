@@ -18,11 +18,10 @@ export default function HowItWorks() {
             How It Works
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Simple process, real results
+            Replace your agency in 3 steps
           </h2>
           <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            No six-month timelines. No confusing contracts.
-            Just a clear path to showing up online.
+            No 6-month onboarding. No &ldquo;ramp-up period.&rdquo; Your AI expert starts working on day one and never stops.
           </p>
         </div>
 

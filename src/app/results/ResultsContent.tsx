@@ -16,10 +16,11 @@ export default function ResultsContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            The numbers don&apos;t lie
+            Your agency promised these numbers.{' '}
+            <span className="text-brand-600">We actually deliver them.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Here&apos;s what local businesses achieve when they stop being invisible online.
+            Real results from real businesses that stopped accepting excuses and started working with AI that&apos;s accountable.
           </p>
         </div>
       </section>
@@ -46,10 +47,10 @@ export default function ResultsContent() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-              Scenarios
+              After They Fired Their Agency
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-              What this looks like in practice
+              Same business. Different approach. Real results.
             </h2>
           </div>
 
@@ -60,9 +61,9 @@ export default function ResultsContent() {
                 className="bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{scenario.business}</h3>
-                <p className="text-slate-400 text-sm mb-3 font-medium">The challenge</p>
+                <p className="text-slate-400 text-sm mb-3 font-medium">The agency problem</p>
                 <p className="text-slate-500 text-sm mb-5">{scenario.challenge}</p>
-                <p className="text-slate-400 text-sm mb-3 font-medium">What we did</p>
+                <p className="text-slate-400 text-sm mb-3 font-medium">What Astor did</p>
                 <p className="text-slate-500 text-sm mb-5">{scenario.solution}</p>
                 <div className="border-t border-slate-100 pt-5">
                   <p className="text-slate-400 text-sm mb-3 font-medium">Results</p>
@@ -92,7 +93,7 @@ export default function ResultsContent() {
           </h2>
           <div className="bg-slate-50 border border-slate-100 rounded-2xl p-12">
             <p className="text-slate-400 text-lg italic">
-              Client testimonials coming soon. We let our results do the talking.
+              Client testimonials coming soon. We let our results do the talking — not a slideshow of logos.
             </p>
           </div>
         </div>
