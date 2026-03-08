@@ -68,7 +68,7 @@ export const PROCESS_STEPS_FULL = [
 
 export const PACKAGES = {
   foundation: {
-    name: 'Foundation',
+    name: 'Astor Lite',
     tagline: 'Your AI marketing agent — always on, always optimizing your online presence.',
     features: [
       'Custom website built to convert',
@@ -80,10 +80,10 @@ export const PACKAGES = {
     ],
   },
   growth: {
-    name: 'Growth',
-    tagline: 'Everything in Foundation + the full growth engine to scale your business.',
+    name: 'Astor Pro',
+    tagline: 'Everything in Astor Lite + the full growth engine to scale your business.',
     features: [
-      'Everything in Foundation',
+      'Everything in Astor Lite',
       'AI-generated blog content optimized for what people actually search',
       'Automated review generation system',
       'Google Ads management (with AI bid optimization)',

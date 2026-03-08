@@ -30,7 +30,7 @@ export default function PackagesContent() {
       <section className="py-24">
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Foundation */}
+            {/* Astor Lite */}
             <div className="bg-white border border-slate-200 rounded-2xl p-8 md:p-10 hover:shadow-lg transition-all duration-300">
               <h2 className="text-2xl font-bold text-slate-900 mb-2">{PACKAGES.foundation.name}</h2>
               <p className="text-slate-500 mb-8">{PACKAGES.foundation.tagline}</p>
@@ -52,7 +52,7 @@ export default function PackagesContent() {
               </Link>
             </div>
 
-            {/* Growth */}
+            {/* Astor Pro */}
             <div className="relative bg-white border-2 border-brand-200 rounded-2xl p-8 md:p-10 hover:shadow-lg transition-all duration-300">
               <div className="absolute -top-4 left-8 bg-brand-600 text-white text-xs font-semibold px-4 py-1.5 rounded-full">
                 Most Popular
