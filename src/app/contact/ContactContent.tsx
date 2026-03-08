@@ -96,25 +96,6 @@ export default function ContactContent() {
                     placeholder="Smith's Plumbing"
                   />
                 </div>
-                <div>
-                  <label htmlFor="businessType" className="block text-sm font-medium text-slate-700 mb-1.5">Business Type</label>
-                  <select
-                    id="businessType"
-                    name="businessType"
-                    className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 bg-white"
-                  >
-                    <option value="">Select your business type</option>
-                    <option value="restaurant">Restaurant / Food Service</option>
-                    <option value="dental">Dental Practice</option>
-                    <option value="plumbing">Plumbing / HVAC</option>
-                    <option value="legal">Law Firm</option>
-                    <option value="home-services">Home Services</option>
-                    <option value="retail">Retail / Shop</option>
-                    <option value="medical">Medical Practice</option>
-                    <option value="automotive">Automotive</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1.5">Phone</label>
