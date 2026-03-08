@@ -2,20 +2,20 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Astor — Your AI-Powered SEO Expert',
-  description: 'Stop overpaying agencies that underdeliver. Astor is an AI-powered SEO expert that constantly researches, optimizes, and monitors your competitors — 24/7.',
+  title: 'Astor — Your AI Marketing Agent',
+  description: 'Fire your marketing agency. Hire Astor — an AI marketing agent that constantly researches, optimizes, monitors your competitors, and evolves your strategy. 24/7.',
   metadataBase: new URL('https://tryastor.com'),
   openGraph: {
-    title: 'Astor — Your AI-Powered SEO Expert',
-    description: 'Stop overpaying agencies that underdeliver. AI-powered SEO that actually works.',
+    title: 'Astor — Your AI Marketing Agent',
+    description: 'Fire your marketing agency. Hire Astor — AI-powered marketing that actually works.',
     url: 'https://tryastor.com',
     siteName: 'Astor',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Astor — Your AI-Powered SEO Expert',
-    description: 'Stop overpaying agencies. AI-powered SEO that actually works.',
+    title: 'Astor — Your AI Marketing Agent',
+    description: 'Fire your marketing agency. Hire Astor.',
   },
 }
 

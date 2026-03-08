@@ -14,7 +14,7 @@ export default function ResultsPage() {
     <main>
       <Navbar />
       <ResultsContent />
-      <CTA headline="Want results like these?" subtext="Stop waiting for your agency to figure it out. Book a free strategy call and see what AI-powered marketing looks like for your business." />
+      <CTA headline="Want results like these? Hire Astor." subtext="Stop waiting for your agency to figure it out. Book a free strategy call and see what Astor would do for your business on day one." />
       <Footer />
     </main>
   )

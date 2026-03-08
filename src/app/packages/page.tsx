@@ -14,7 +14,7 @@ export default function PackagesPage() {
     <main>
       <Navbar />
       <PackagesContent />
-      <CTA headline="Ready to stop subsidizing your agency's overhead?" subtext="Book a free strategy call. We'll show you exactly what your current agency is (and isn't) doing — and what Astor would do differently." />
+      <CTA headline="Ready to meet Astor?" subtext="Book a free strategy call. We'll show you exactly what your current agency is (and isn't) doing — and what Astor would do on day one." />
       <Footer />
     </main>
   )

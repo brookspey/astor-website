@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">Your AI-powered SEO expert. Always on.</span>
+            <span className="text-brand-700 text-sm font-medium">Meet Astor — your AI marketing agent</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
             Fire your marketing agency.{' '}
-            <span className="text-brand-600">Hire an AI that actually works.</span>
+            <span className="text-brand-600">Hire Astor.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Traditional agencies charge $3–5k/month and move at a crawl. Astor gives you an AI-powered SEO expert that researches, optimizes, monitors your competitors, and evolves with every Google update — 24/7.
+            Astor is an AI marketing agent that does what agencies can&apos;t — constantly researching SEO best practices, monitoring your competitors, tracking your KPIs, and evolving your strategy with every Google update. 24/7. No days off.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -43,12 +43,12 @@ export default function Hero() {
               href="/packages"
               className="text-slate-600 hover:text-slate-900 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 text-center border border-slate-200 hover:border-slate-300 hover:bg-slate-50 min-h-[44px] flex items-center justify-center"
             >
-              See What You Get
+              See What Astor Does
             </Link>
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free strategy call &middot; No long-term contracts &middot; Results or we don&apos;t deserve your money
+            Free strategy call &middot; No long-term contracts &middot; Results or you don&apos;t pay
           </p>
         </div>
       </div>

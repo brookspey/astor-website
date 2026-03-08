@@ -16,10 +16,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Let&apos;s show you what your agency <span className="text-brand-600">should have been doing</span>
+            See what Astor would do <span className="text-brand-600">for your business</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Book a free strategy call. We&apos;ll audit your online presence live, show you where you&apos;re losing customers, and explain exactly what an AI-powered approach looks like. No pitch deck. No BS.
+            Book a free strategy call. We&apos;ll show you how Astor would audit your online presence, where you&apos;re losing to competitors, and exactly what Astor would fix on day one. No pitch deck. No BS.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Book a Strategy Call</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly where you&apos;re losing and what we&apos;d do differently than your current agency.
+                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly where you&apos;re losing and what Astor would do differently than your current agency.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -65,7 +65,7 @@ export default function ContactContent() {
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
                     <p className="text-slate-700 font-medium">The honest truth</p>
-                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what to do — whether you hire us or not</p>
+                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what to do — whether you hire Astor or not</p>
                   </div>
                 </div>
               </div>

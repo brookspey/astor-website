@@ -18,10 +18,10 @@ export default function PackageOverview() {
             Packages
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Hire your AI expert. Fire your agency.
+            Hire Astor. Fire your agency.
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Everything a $5k/month agency does — except it actually works, constantly evolves, and costs a fraction of the price.
+            Astor does everything a $5k/month agency does — except it actually works, constantly evolves, and costs a fraction of the price.
           </p>
         </div>
 

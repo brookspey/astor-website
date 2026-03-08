@@ -66,11 +66,11 @@ export default function AgencyTruth() {
               <div className="text-brand-400 text-sm font-semibold tracking-wider uppercase mb-4">Astor</div>
               <ul className="space-y-4">
                 {[
-                  'AI expert dedicated 100% to your business',
+                  'Dedicated 100% to your business — no other clients',
                   'Monitors and optimizes daily — not monthly',
-                  'Strategy built from your competitors\' actual data',
+                  'Builds strategy from your competitors\' actual data',
                   'Tracks KPIs that matter: calls, leads, revenue',
-                  'Algorithm update? Already adapted before you noticed',
+                  'Algorithm update? Astor already adapted before you noticed',
                   'A fraction of what agencies charge',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm">

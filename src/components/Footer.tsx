@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Your AI-powered SEO expert.<br />
+              Astor is your AI marketing agent.<br />
               Always researching. Always optimizing. Never billing you $5k/month to do nothing.
             </p>
           </div>

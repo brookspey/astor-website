@@ -17,10 +17,10 @@ export default function ResultsContent() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
             Your agency promised these numbers.{' '}
-            <span className="text-brand-600">We actually deliver them.</span>
+            <span className="text-brand-600">Astor actually delivers them.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Real results from real businesses that stopped accepting excuses and started working with AI that&apos;s accountable.
+            Real results from real businesses that fired their agency and hired Astor.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function ResultsContent() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-              After They Fired Their Agency
+              After They Hired Astor
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
               Same business. Different approach. Real results.
@@ -93,7 +93,7 @@ export default function ResultsContent() {
           </h2>
           <div className="bg-slate-50 border border-slate-100 rounded-2xl p-12">
             <p className="text-slate-400 text-lg italic">
-              Client testimonials coming soon. We let our results do the talking — not a slideshow of logos.
+              Client testimonials coming soon. Astor lets results do the talking — not a slideshow of logos.
             </p>
           </div>
         </div>
