@@ -1,5 +1,5 @@
 export const CALENDLY_URL = 'https://calendly.com/peytonbrooks6'
-export const EMAIL = 'peytonbrooks6@gmail.com'
+export const EMAIL = 'peyton@tryastor.com'
 export const CTA_TEXT = 'Book a Strategy Call'
 
 export const NAV_LINKS = [
@@ -7,6 +7,7 @@ export const NAV_LINKS = [
   { label: 'Packages', href: '/packages' },
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Results', href: '/results' },
+  { label: 'Meet the Team', href: '/team' },
   { label: 'Contact', href: '/contact' },
 ]
 
