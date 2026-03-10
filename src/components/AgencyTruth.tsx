@@ -45,10 +45,10 @@ export default function AgencyTruth() {
               <ul className="space-y-4">
                 {[
                   'Account manager juggles 40+ clients',
-                  'Updates your SEO once a month (maybe)',
+                  'Touches your account once a month (maybe)',
                   'Uses the same playbook for every client',
                   'Reports vanity metrics to justify the invoice',
-                  'Google changes its algorithm? They\'ll get to it... eventually',
+                  'Platforms change their algorithms? They\'ll get to it... eventually',
                   '$3,000–$5,000+/month',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm">
@@ -70,7 +70,7 @@ export default function AgencyTruth() {
                   'Monitors and optimizes daily — not monthly',
                   'Builds strategy from your competitors\' actual data',
                   'Tracks KPIs that matter: calls, leads, revenue',
-                  'Algorithm update? Astor already adapted before you noticed',
+                  'Platform update? Astor already adapted before you noticed',
                   'A fraction of what agencies charge',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm">

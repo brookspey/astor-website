@@ -21,19 +21,28 @@ export default function PackageOverview() {
             One AI agent. Everything your business needs online.
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            SEO, website, Google Business Profile, reviews, content, ads — Astor handles all of it, and gets smarter over time.
+            Search, social, ads, reviews, content — Astor handles all of it, and gets smarter over time.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {Object.values(PACKAGES).map((pkg) => (
+        <div className="grid lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {Object.entries(PACKAGES).map(([key, pkg]) => (
             <div
               key={pkg.name}
-              className="bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className={`bg-white rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col ${
+                key === 'fullFunnel'
+                  ? 'relative border-2 border-brand-200'
+                  : 'border border-slate-100'
+              }`}
             >
+              {key === 'fullFunnel' && (
+                <div className="absolute -top-4 left-8 bg-brand-600 text-white text-xs font-semibold px-4 py-1.5 rounded-full">
+                  Best Value
+                </div>
+              )}
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{pkg.name}</h3>
               <p className="text-slate-500 mb-6">{pkg.tagline}</p>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-1">
                 {pkg.features.slice(0, 4).map((feature) => (
                   <li key={feature} className="flex items-start gap-3 text-slate-600 text-sm">
                     <svg className="w-5 h-5 text-brand-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">

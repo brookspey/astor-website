@@ -6,7 +6,7 @@ import PackagesContent from './PackagesContent'
 
 export const metadata: Metadata = {
   title: 'Packages — Astor',
-  description: 'Everything your marketing agency does — except it actually works. AI-powered SEO that constantly researches, monitors, and evolves.',
+  description: 'Everything your marketing agency does — except it actually works. AI-powered search and social marketing that constantly researches, monitors, and evolves.',
 }
 
 export default function PackagesPage() {

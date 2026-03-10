@@ -50,10 +50,10 @@ export default function WhoWeHelp() {
             Who We Help
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Built for local businesses that live and die by search
+            Built for local businesses that need to grow
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Your customers Google before they buy. Astor makes sure they find you first — and keeps you there.
+            Whether customers find you on Google or discover you on Instagram, Astor makes sure they choose you.
           </p>
         </div>
 

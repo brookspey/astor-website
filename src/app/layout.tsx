@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Astor — Your AI Marketing Agent',
-  description: 'Fire your marketing agency. Hire Astor — an AI marketing agent that constantly researches, optimizes, monitors your competitors, and evolves your strategy. 24/7.',
+  description: 'Fire your marketing agency. Hire Astor — an AI marketing agent that dominates Google search and Meta ads for your business. 24/7.',
   metadataBase: new URL('https://tryastor.com'),
   openGraph: {
     title: 'Astor — Your AI Marketing Agent',

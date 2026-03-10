@@ -66,7 +66,7 @@ export default function HowItWorksContent() {
             Marketing that gets smarter every day
           </h2>
           <p className="text-slate-400 text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-            Google&apos;s algorithm changes thousands of times a year. Astor adapts in real time — constantly researching what&apos;s working now, not what worked last quarter. It&apos;s like having a full-time SEO expert who never stops learning.
+            Google&apos;s algorithm and Meta&apos;s ad platform change constantly. Astor adapts in real time — researching what&apos;s working now, not what worked last quarter. It&apos;s like having a full-time marketing team that never stops learning.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
@@ -76,7 +76,7 @@ export default function HowItWorksContent() {
             </div>
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
               <div className="text-3xl font-bold text-brand-400 mb-2">Real-time</div>
-              <p className="text-slate-400 text-sm">Astor detects and adapts to algorithm changes as they happen</p>
+              <p className="text-slate-400 text-sm">Astor detects and adapts to platform changes as they happen</p>
             </div>
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
               <div className="text-3xl font-bold text-brand-400 mb-2">Every KPI</div>
