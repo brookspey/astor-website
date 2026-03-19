@@ -15,17 +15,17 @@ export const BUSINESS_TYPES = [
   { name: 'Restaurants', icon: 'utensils', description: 'Astor fills tables — whether customers find you on Google or discover your specials on Instagram. Search and social, working together.' },
   { name: 'Dental Practices', icon: 'tooth', description: 'Astor puts you at the top of local search results and keeps you there — so new patients find you first.' },
   { name: 'Plumbers & HVAC', icon: 'wrench', description: 'When pipes burst at 2am, Astor makes sure you\'re the first result they see. Emergency searches, handled.' },
-  { name: 'Law Firms', icon: 'scale', description: 'Astor turns local searches into booked consultations — consistently, measurably, and at a fraction of traditional marketing costs.' },
+  { name: 'Law Firms', icon: 'scale', description: 'Astor turns local searches into booked consultations — consistently, measurably, and for a fraction of what you\'d pay a marketing agency.' },
   { name: 'Home Services', icon: 'home', description: 'Astor dominates your service area — owning local search results and running targeted ads that put you in front of homeowners ready to hire.' },
   { name: 'Retail & Shops', icon: 'store', description: 'Astor drives foot traffic from every angle — Google search for intent, Instagram and Facebook ads for discovery.' },
 ]
 
 export const AGENCY_PROBLEMS = [
-  { problem: 'You\'re paying $3–5k/month', detail: 'Most of that goes to overhead, account managers, and fancy offices — not your results.' },
-  { problem: 'Your "strategist" manages 40 accounts', detail: 'They spend maybe 2 hours a month on yours. The rest is copy-paste templates.' },
-  { problem: 'You get a PDF report you don\'t understand', detail: 'Vanity metrics designed to look impressive. No real accountability for growth.' },
-  { problem: 'Marketing "best practices" from 2019', detail: 'Google\'s algorithm and Meta\'s ad platform change constantly. Your agency\'s playbook doesn\'t.' },
-  { problem: 'Your social ads are "boosted posts"', detail: 'That\'s not a strategy. That\'s throwing money at Meta and hoping something sticks.' },
+  { problem: 'You have a website — but no marketing', detail: 'Someone built you a site, maybe manages hosting. But it\'s not bringing in customers on its own.' },
+  { problem: 'You know you should be doing more', detail: 'SEO, ads, social media — you\'ve heard it all. But where do you start, and who do you trust?' },
+  { problem: 'Agencies want $3–5k/month', detail: 'You\'ve looked into hiring an agency. The price tag? Hard to justify when you can\'t even measure what you\'d get.' },
+  { problem: 'Your competitors keep showing up first', detail: 'They\'re on page one of Google. They\'re running ads. Meanwhile, you\'re relying on word of mouth and hoping for the best.' },
+  { problem: 'You post sometimes — but it doesn\'t move the needle', detail: 'A photo here, a boost there. But without a real strategy, social media feels like shouting into the void.' },
 ]
 
 export const PROCESS_STEPS_MINI = [

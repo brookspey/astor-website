@@ -61,7 +61,7 @@ export default function ResultsContent() {
                 className="bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{scenario.business}</h3>
-                <p className="text-slate-400 text-sm mb-3 font-medium">The agency problem</p>
+                <p className="text-slate-400 text-sm mb-3 font-medium">The challenge</p>
                 <p className="text-slate-500 text-sm mb-5">{scenario.challenge}</p>
                 <p className="text-slate-400 text-sm mb-3 font-medium">What Astor did</p>
                 <p className="text-slate-500 text-sm mb-5">{scenario.solution}</p>

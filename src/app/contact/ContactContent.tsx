@@ -62,7 +62,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Book a Strategy Call</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly where you&apos;re losing and what Astor would do differently than your current agency.
+                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly what&apos;s holding your business back online and what Astor would do about it.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -95,7 +95,7 @@ export default function ContactContent() {
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
                     <p className="text-slate-700 font-medium">The honest truth</p>
-                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what to do — whether you hire Astor or not</p>
+                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what&apos;s holding your business back online — and what to do about it</p>
                   </div>
                 </div>
               </div>
