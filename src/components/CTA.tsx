@@ -4,15 +4,7 @@ import Link from 'next/link'
 import { CTA_TEXT, EMAIL } from '@/lib/constants'
 import { useInView } from '@/lib/useInView'
 
-interface CTAProps {
-  headline?: string
-  subtext?: string
-}
-
-export default function CTA({
-  headline = 'See what Astor can do for your business.',
-  subtext = 'Book a free strategy call. We\'ll audit your online presence and show you exactly what Astor would fix, build, and optimize — starting day one.',
-}: CTAProps) {
+export default function CTA() {
   const { ref, isVisible } = useInView()
 
   return (
@@ -22,10 +14,10 @@ export default function CTA({
         className={`max-w-3xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
       >
         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">
-          {headline}
+          Let&apos;s talk about what you need built.
         </h2>
         <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-          {subtext}
+          Schedule a free consultation. We&apos;ll learn how your business runs, identify the biggest bottlenecks, and show you what custom software could look like.
         </p>
         <Link
           href="/contact"

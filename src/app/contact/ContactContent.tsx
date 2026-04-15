@@ -46,10 +46,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            See what Astor can do <span className="text-brand-600">for your business</span>
+            Let&apos;s talk about <span className="text-brand-600">what you need built</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Book a free strategy call. We&apos;ll walk through your online presence, show you where the biggest opportunities are, and demo exactly what Astor would do for your business. No pitch deck. No pressure.
+            Schedule a free consultation or send us a message. We&apos;ll learn how your business runs and figure out where custom software makes the biggest impact.
           </p>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function ContactContent() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Calendly Card */}
             <div>
-              <h2 className="text-2xl font-bold text-slate-900 mb-6">Book a Strategy Call</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-6">Schedule a Consultation</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  We&apos;ll pull up your website, your rankings, and your competitors — live. You&apos;ll see exactly what&apos;s holding your business back online and what Astor would do about it.
+                  We&apos;ll walk through your current operations, identify the biggest pain points, and discuss what custom software could look like for your business. No sales pitch — just a conversation.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -80,26 +80,26 @@ export default function ContactContent() {
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">1</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Where you stand</p>
-                    <p className="text-slate-500 text-sm">Tell us about your business, your current marketing, and what&apos;s not working</p>
+                    <p className="text-slate-700 font-medium">How your business runs</p>
+                    <p className="text-slate-500 text-sm">We&apos;ll ask about your workflows, tools, and where things break down</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">2</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Live teardown</p>
-                    <p className="text-slate-500 text-sm">We&apos;ll pull up your site, your competitors, and your rankings — and show you what&apos;s broken</p>
+                    <p className="text-slate-700 font-medium">Where software helps most</p>
+                    <p className="text-slate-500 text-sm">We&apos;ll identify the highest-impact areas where custom tools save time and money</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
-                    <p className="text-slate-700 font-medium">The honest truth</p>
-                    <p className="text-slate-500 text-sm">You&apos;ll leave knowing exactly what&apos;s holding your business back online — and what to do about it</p>
+                    <p className="text-slate-700 font-medium">What it could look like</p>
+                    <p className="text-slate-500 text-sm">You&apos;ll leave with a clear picture of what we&apos;d build and how it fits your operation</p>
                   </div>
                 </div>
               </div>
-              <p className="text-slate-400 text-sm mt-4">15–20 minutes &middot; Free &middot; No obligation</p>
+              <p className="text-slate-400 text-sm mt-4">30 minutes &middot; Free &middot; No obligation</p>
             </div>
 
             {/* Contact Form */}
@@ -124,7 +124,7 @@ export default function ContactContent() {
                     id="business"
                     name="business"
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
-                    placeholder="Smith's Plumbing"
+                    placeholder="Smith's Construction"
                   />
                 </div>
                 <div className="grid sm:grid-cols-2 gap-5">
@@ -146,19 +146,19 @@ export default function ContactContent() {
                       name="email"
                       required
                       className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
-                      placeholder="john@smithsplumbing.com"
+                      placeholder="john@smithsconstruction.com"
                     />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1.5">Message</label>
+                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1.5">Tell us about your business</label>
                   <textarea
                     id="message"
                     name="message"
                     required
                     rows={4}
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 resize-none"
-                    placeholder="Tell us about your business and what you're looking for..."
+                    placeholder="What does your business do? What's not working with your current tools?"
                   />
                 </div>
                 <button

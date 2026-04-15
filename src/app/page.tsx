@@ -1,10 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
-import AgencyTruth from '@/components/AgencyTruth'
 import WhoWeHelp from '@/components/WhoWeHelp'
-import HowItWorks from '@/components/HowItWorks'
-import PackageOverview from '@/components/PackageOverview'
-import TrustSection from '@/components/TrustSection'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 
@@ -13,11 +9,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <AgencyTruth />
       <WhoWeHelp />
-      <HowItWorks />
-      <PackageOverview />
-      <TrustSection />
       <CTA />
       <Footer />
     </main>

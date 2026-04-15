@@ -5,7 +5,7 @@ import ContactContent from './ContactContent'
 
 export const metadata: Metadata = {
   title: 'Contact — Astor',
-  description: 'Book a free strategy call. We\'ll audit your online presence live and show you what your agency should have been doing all along.',
+  description: 'Schedule a free consultation. We\'ll learn how your business runs and show you what custom software could look like for your operation.',
 }
 
 export default function ContactPage() {

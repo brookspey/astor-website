@@ -7,7 +7,7 @@ import { EMAIL, CALENDLY_URL, CTA_TEXT } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Meet the Team — Astor',
-  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building the AI marketing agent for local businesses.',
+  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building custom software for service businesses.',
 }
 
 export default function Team() {
@@ -22,11 +22,11 @@ export default function Team() {
             Meet the Team
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mt-3 mb-4">
-            The humans behind Astor
+            The people behind Astor
           </h1>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Astor is the AI agent. But there are real people behind it — building the technology,
-            refining the strategy, and making sure it actually delivers for your business.
+            We build software that fits your business — not the other way around.
+            Here&apos;s who you&apos;ll be working with.
           </p>
         </div>
       </section>
@@ -72,25 +72,25 @@ export default function Team() {
                 <div className="space-y-4 text-slate-600 leading-relaxed">
                   <p>
                     Before building Astor, Peyton spent over four years as a Senior Product Manager at
-                    Informed.IQ, where he built AI-powered products for some of the largest banks in the U.S. —
+                    Informed.IQ, where he built AI-powered software products for some of the largest banks in the U.S. —
                     including JPMorgan Chase, Wells Fargo, Capital One, and Ally Financial — leading
                     everything from automated loan origination to fraud detection systems
                     processing millions of documents.
                   </p>
                   <p>
-                    He saw firsthand how AI could transform operations at scale. But he also noticed
-                    something: the businesses that needed it the most — local shops, service companies,
-                    restaurants — were stuck paying marketing agencies thousands a month for mediocre results.
+                    He saw firsthand how custom software could transform operations at scale. But he also noticed
+                    something: the businesses that needed it the most — contractors, medical offices, skilled trades —
+                    were stuck cobbling together generic tools that never quite fit how they actually worked.
                   </p>
                   <p>
-                    That&apos;s why he built Astor. Not another agency. An AI marketing agent that does
-                    what agencies can&apos;t — constantly researching, constantly optimizing, and never
-                    taking a day off. The same caliber of AI that Fortune 500 companies use, built
-                    specifically for local businesses.
+                    That&apos;s why he built Astor. Not a SaaS platform. Not an off-the-shelf tool.
+                    A team that builds custom software specifically for service businesses doing
+                    $1M+ in revenue — the same caliber of technology that Fortune 500 companies use,
+                    built to fit your operation.
                   </p>
                   <p>
                     Peyton holds an MBA from Duke University&apos;s Fuqua School of Business and has a background
-                    in risk strategy from American Express. When he&apos;s not building Astor,
+                    in risk strategy from American Express. When he&apos;s not building software,
                     you&apos;ll find him exploring South Florida or diving into the latest
                     AI research.
                   </p>
@@ -157,11 +157,11 @@ export default function Team() {
       <section className="bg-brand-50 py-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            Want to see Astor in action?
+            Ready to talk about what you need built?
           </h2>
           <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-            Book a free strategy call. We&apos;ll audit your online presence live and show you
-            exactly what Astor would do for your business on day one.
+            Schedule a free consultation. We&apos;ll learn how your business runs and
+            show you what custom software could look like for your operation.
           </p>
           <Link
             href="/contact"

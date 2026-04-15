@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Astor is your AI marketing agent.<br />
-              Always researching. Always optimizing. Always working for your business.
+              Custom software for service businesses.<br />
+              Built around how you actually work.
             </p>
           </div>
           <div>
@@ -37,7 +37,6 @@ export default function Footer() {
                 {EMAIL}
               </a>
               <p>Palm Beach County, FL</p>
-              <p>Serving all of South Florida</p>
             </div>
           </div>
         </div>
@@ -55,9 +54,6 @@ export default function Footer() {
         <div className="border-t border-slate-100 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-sm">
             &copy; {new Date().getFullYear()} Astor. All rights reserved.
-          </p>
-          <p className="text-slate-300 text-xs">
-            Palm Beach &middot; Martin &middot; Broward &middot; Miami-Dade
           </p>
         </div>
       </div>

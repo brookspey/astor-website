@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">Meet Astor — your AI marketing agent</span>
+            <span className="text-brand-700 text-sm font-medium">Custom software for service businesses</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            Finally, real marketing —{' '}
-            <span className="text-brand-600">without the agency price tag.</span>
+            Your business does $1M+.{' '}
+            <span className="text-brand-600">Your software should keep up.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is an AI marketing agent that optimizes your Google rankings and social ad spend, monitors your competitors, and evolves your strategy across search and social — 24/7, every single day.
+            We build custom software for construction companies, medical offices, and skilled trades — replacing the spreadsheets, generic tools, and manual processes holding your operation back.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -39,16 +39,10 @@ export default function Hero() {
             >
               {CTA_TEXT}
             </Link>
-            <Link
-              href="/packages"
-              className="text-slate-600 hover:text-slate-900 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 text-center border border-slate-200 hover:border-slate-300 hover:bg-slate-50 min-h-[44px] flex items-center justify-center"
-            >
-              See What Astor Does
-            </Link>
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free strategy call &middot; No long-term contracts &middot; Results in 90 days
+            Free consultation &middot; No obligation &middot; Built for your workflow
           </p>
         </div>
       </div>
