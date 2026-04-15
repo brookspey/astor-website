@@ -34,4 +34,14 @@ export const VERTICALS = [
     icon: 'wrench',
     description: 'Service dispatch, invoicing, inventory, and customer management — purpose-built for your operation.',
   },
+  {
+    name: 'Auto Repair Shops',
+    icon: 'car',
+    description: 'Work orders, parts tracking, customer approvals, and scheduling — built to keep your bays full and your shop organized.',
+  },
+  {
+    name: 'Electricians',
+    icon: 'bolt',
+    description: 'Job scheduling, estimates, permit tracking, and invoicing — designed for how electrical contractors actually run.',
+  },
 ]
