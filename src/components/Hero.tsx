@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">Software for production-home finish trades</span>
+            <span className="text-brand-700 text-sm font-medium">PO-to-invoice project management for finish trade subs</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            You’re growing 40% a year.{' '}
-            <span className="text-brand-600">Your operation is held together by paper.</span>
+            One platform to run every lot —{' '}
+            <span className="text-brand-600">from PO to final invoice acceptance.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor builds software for cabinet, countertop, door, and flooring subs running 50–200 active lots for Lennar, D.R. Horton, NVR, and the rest. One queue from PO to draw — no more retyping the supervisor’s clipboard.
+            Astor is the project management platform built for cabinet, countertop, door, and flooring supplier-installers working Lennar, D.R. Horton, and NVR tracts. PO review, takeoffs, scheduling, install, punch, draws, QuickBooks — one queue, every lot, no retyping.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
