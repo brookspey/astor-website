@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">Custom software for service businesses</span>
+            <span className="text-brand-700 text-sm font-medium">Software for production-home finish trades</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            Your business does $1M+.{' '}
-            <span className="text-brand-600">Your software should keep up.</span>
+            You’re growing 40% a year.{' '}
+            <span className="text-brand-600">Your operation is held together by paper.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            We build custom software for construction companies, medical offices, and skilled trades — replacing the spreadsheets, generic tools, and manual processes holding your operation back.
+            Astor builds software for cabinet, countertop, door, and flooring subs running 50–200 active lots for Lennar, D.R. Horton, NVR, and the rest. One queue from PO to draw — no more retyping the supervisor’s clipboard.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free consultation &middot; No obligation &middot; Built for your workflow
+            Free 30-min consult &middot; Built around your master subs and builder portals &middot; No SaaS lock-in
           </p>
         </div>
       </div>

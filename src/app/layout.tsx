@@ -2,20 +2,20 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Astor — Custom Software for Service Businesses',
-  description: 'We build custom software for construction companies, medical offices, HVAC, plumbing, and roofing businesses doing $1M+ in annual revenue.',
+  title: 'Astor — Software for Production-Home Finish Trades',
+  description: 'Astor builds software for cabinet, countertop, door, and flooring supplier-installer subs running 50–200 lots for Lennar, D.R. Horton, NVR, and other production builders. One queue from PO to draw.',
   metadataBase: new URL('https://tryastor.com'),
   openGraph: {
-    title: 'Astor — Custom Software for Service Businesses',
-    description: 'Custom software built around how your business actually works.',
+    title: 'Astor — Software for Production-Home Finish Trades',
+    description: 'One queue from PO to draw for cabinet, countertop, door, and flooring subs working production-builder tracts.',
     url: 'https://tryastor.com',
     siteName: 'Astor',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Astor — Custom Software for Service Businesses',
-    description: 'Custom software for service businesses doing $1M+.',
+    title: 'Astor — Software for Production-Home Finish Trades',
+    description: 'For cabinet, countertop, door, and flooring subs on production-builder tracts.',
   },
 }
 

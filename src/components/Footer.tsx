@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Custom software for service businesses.<br />
-              Built around how you actually work.
+              Software for production-home finish trades.<br />
+              One queue from PO to draw.
             </p>
           </div>
           <div>

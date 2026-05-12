@@ -14,10 +14,10 @@ export default function CTA() {
         className={`max-w-3xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
       >
         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">
-          Let&apos;s talk about what you need built.
+          Walk us through one lot. We&apos;ll show you where the leaks are.
         </h2>
         <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-          Schedule a free consultation. We&apos;ll learn how your business runs, identify the biggest bottlenecks, and show you what custom software could look like.
+          30 minutes with your office PM or field super. We&apos;ll trace one lot from PO to draw, name where the rework is, and tell you whether software can fix it — straight, no pitch.
         </p>
         <Link
           href="/contact"

@@ -46,10 +46,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Let&apos;s talk about <span className="text-brand-600">what you need built</span>
+            Walk us through <span className="text-brand-600">one lot</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Schedule a free consultation or send us a message. We&apos;ll learn how your business runs and figure out where custom software makes the biggest impact.
+            Bring your office PM or field super. We&apos;ll trace one lot from PO to draw and tell you where software actually fixes the rework — built for cabinet, countertop, door, and flooring subs on production-builder tracts.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Schedule a Consultation</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  We&apos;ll walk through your current operations, identify the biggest pain points, and discuss what custom software could look like for your business. No sales pitch — just a conversation.
+                  Tell us about your builders, your master subs, and how a PO becomes a paid draw today. We&apos;ll point out where the rework lives. No pitch — just a conversation.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -80,22 +80,22 @@ export default function ContactContent() {
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">1</div>
                   <div>
-                    <p className="text-slate-700 font-medium">How your business runs</p>
-                    <p className="text-slate-500 text-sm">We&apos;ll ask about your workflows, tools, and where things break down</p>
+                    <p className="text-slate-700 font-medium">Trace one lot, PO to draw</p>
+                    <p className="text-slate-500 text-sm">Builder portal, master sub, takeoff, shop ticket, install, punch, draw</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">2</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Where software helps most</p>
-                    <p className="text-slate-500 text-sm">We&apos;ll identify the highest-impact areas where custom tools save time and money</p>
+                    <p className="text-slate-700 font-medium">Name the leaks</p>
+                    <p className="text-slate-500 text-sm">Where retypes happen, where draws stall, where the supervisor&apos;s knowledge gets stuck</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
-                    <p className="text-slate-700 font-medium">What it could look like</p>
-                    <p className="text-slate-500 text-sm">You&apos;ll leave with a clear picture of what we&apos;d build and how it fits your operation</p>
+                    <p className="text-slate-700 font-medium">An honest answer</p>
+                    <p className="text-slate-500 text-sm">If software won&apos;t move the needle on your operation, we&apos;ll tell you. If it will, you&apos;ll see exactly what we&apos;d build first.</p>
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function ContactContent() {
                     name="name"
                     required
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
-                    placeholder="John Smith"
+                    placeholder="Jane Smith"
                   />
                 </div>
                 <div>
@@ -124,7 +124,7 @@ export default function ContactContent() {
                     id="business"
                     name="business"
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
-                    placeholder="Smith's Construction"
+                    placeholder="Smith Cabinetry & Countertops"
                   />
                 </div>
                 <div className="grid sm:grid-cols-2 gap-5">
@@ -146,19 +146,19 @@ export default function ContactContent() {
                       name="email"
                       required
                       className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200"
-                      placeholder="john@smithsconstruction.com"
+                      placeholder="jane@smithcabinetry.com"
                     />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1.5">Tell us about your business</label>
+                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1.5">Tell us about your operation</label>
                   <textarea
                     id="message"
                     name="message"
                     required
                     rows={4}
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 resize-none"
-                    placeholder="What does your business do? What's not working with your current tools?"
+                    placeholder="Which trade? Which builders? Roughly how many active lots? Where does the most rework happen today?"
                   />
                 </div>
                 <button

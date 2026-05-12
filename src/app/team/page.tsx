@@ -7,7 +7,7 @@ import { EMAIL, CALENDLY_URL, CTA_TEXT } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Meet the Team — Astor',
-  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building custom software for service businesses.',
+  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building software for production-home finish trade subs.',
 }
 
 export default function Team() {
@@ -25,7 +25,7 @@ export default function Team() {
             The people behind Astor
           </h1>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            We build software that fits your business — not the other way around.
+            We build software for finish trade subs running production-builder lots.
             Here&apos;s who you&apos;ll be working with.
           </p>
         </div>
@@ -79,14 +79,15 @@ export default function Team() {
                   </p>
                   <p>
                     He saw firsthand how custom software could transform operations at scale. But he also noticed
-                    something: the businesses that needed it the most — contractors, medical offices, skilled trades —
-                    were stuck cobbling together generic tools that never quite fit how they actually worked.
+                    something: the businesses that needed it the most — privately-owned residential subs running
+                    cabinets, countertops, doors, and flooring on production-builder tracts — were holding
+                    multimillion-dollar operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
                   </p>
                   <p>
-                    That&apos;s why he built Astor. Not a SaaS platform. Not an off-the-shelf tool.
-                    A team that builds custom software specifically for service businesses doing
-                    $1M+ in revenue — the same caliber of technology that Fortune 500 companies use,
-                    built to fit your operation.
+                    That&apos;s why he built Astor. Not a SaaS platform. Not another portal.
+                    A team that builds software specifically for finish trade supplier-installers serving Lennar,
+                    D.R. Horton, NVR, and the rest — replacing the paper between the supervisor&apos;s clipboard,
+                    the office shop ticket, the builder portal, and QuickBooks.
                   </p>
                   <p>
                     Peyton holds an MBA from Duke University&apos;s Fuqua School of Business and has a background
@@ -157,11 +158,11 @@ export default function Team() {
       <section className="bg-brand-50 py-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            Ready to talk about what you need built?
+            Walk us through one lot.
           </h2>
           <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-            Schedule a free consultation. We&apos;ll learn how your business runs and
-            show you what custom software could look like for your operation.
+            30 minutes with your office PM or field super. We&apos;ll trace one lot from PO to draw and tell you
+            where software actually moves the needle.
           </p>
           <Link
             href="/contact"
