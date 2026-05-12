@@ -1,42 +1,37 @@
 'use client'
 
-import { VERTICALS } from '@/lib/constants'
+import { TRADES } from '@/lib/constants'
 import { useInView } from '@/lib/useInView'
 
 const icons: Record<string, JSX.Element> = {
-  hardhat: (
+  cabinet: (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8 21h8m-4-4v4m-4.65-4h9.3A2.65 2.65 0 0019.3 14.35v-.7a7.3 7.3 0 00-5.3-7.02V4a2 2 0 00-4 0v2.63a7.3 7.3 0 00-5.3 7.02v.7A2.65 2.65 0 007.35 17z" />
+      <rect x="4" y="3" width="16" height="18" rx="1.5" />
+      <path strokeLinecap="round" d="M4 12h16" />
+      <circle cx="10.5" cy="8" r="0.6" fill="currentColor" />
+      <circle cx="13.5" cy="8" r="0.6" fill="currentColor" />
+      <circle cx="10.5" cy="16" r="0.6" fill="currentColor" />
+      <circle cx="13.5" cy="16" r="0.6" fill="currentColor" />
     </svg>
   ),
-  medical: (
+  counter: (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18l-1 2H4l-1-2z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12v8m14-8v8M5 20h14" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3" />
     </svg>
   ),
-  hvac: (
+  door: (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+      <rect x="6" y="3" width="12" height="18" rx="0.5" />
+      <path strokeLinecap="round" d="M9 6h6M9 10h6M9 14h6" />
+      <circle cx="15" cy="12" r="0.6" fill="currentColor" />
     </svg>
   ),
-  roof: (
+  floor: (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-    </svg>
-  ),
-  wrench: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z" />
-    </svg>
-  ),
-  car: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0H20.625a1.125 1.125 0 001.125-1.125V11.25l-2.1-4.2A1.875 1.875 0 0017.97 6H6.03a1.875 1.875 0 00-1.68 1.05L2.25 11.25v6.375" />
-    </svg>
-  ),
-  bolt: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 7h18M3 12h18M3 17h18" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8 7v5m8-5v5M5 12v5m6-5v5m6-5v5" />
     </svg>
   ),
 }
@@ -55,26 +50,48 @@ export default function WhoWeHelp() {
             Who We Build For
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Software built for how you actually work
+            Residential supplier-installer subs in finish trades
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Off-the-shelf tools weren&apos;t designed for your business. We build software that fits your operations — not the other way around.
+            Private, owner-run shops with 50–200 active lots and master subcontracts with 2–4 production builders. Office PM and field super carry the operation — and the pain.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {VERTICALS.map((vertical) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {TRADES.map((trade) => (
             <div
-              key={vertical.name}
+              key={trade.name}
               className="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
             >
               <div className="w-14 h-14 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 mb-4 group-hover:bg-brand-100 transition-colors duration-300">
-                {icons[vertical.icon]}
+                {icons[trade.icon]}
               </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">{vertical.name}</h3>
-              <p className="text-slate-500 text-sm leading-relaxed">{vertical.description}</p>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">{trade.name}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">{trade.description}</p>
             </div>
           ))}
+        </div>
+
+        {/* Customer signal row */}
+        <div className="bg-slate-50 border border-slate-100 rounded-2xl p-8 md:p-10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div>
+              <div className="text-3xl font-bold text-brand-600 mb-1">50–200</div>
+              <div className="text-slate-500 text-sm">Active lots at any time</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-brand-600 mb-1">2–4</div>
+              <div className="text-slate-500 text-sm">Master subs with national builders</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-brand-600 mb-1">30–50%</div>
+              <div className="text-slate-500 text-sm">Annual growth, demand not the problem</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-brand-600 mb-1">Multi-visit</div>
+              <div className="text-slate-500 text-sm">Template, install, punch — every lot</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
