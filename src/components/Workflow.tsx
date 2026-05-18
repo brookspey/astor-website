@@ -27,13 +27,13 @@ export default function Workflow() {
           className={`text-center mb-12 fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <span className="text-brand-600 text-sm font-semibold tracking-wider uppercase">
-            What breaks today
+            Where the gap costs you
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            From PO to QuickBooks, the work bleeds out at every step
+            Eight places your office is working from yesterday&apos;s lot
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            We&apos;ve sat with the office PM and the field super. Headcount keeps growing to babysit the process, not to take on more lots. Here&apos;s where it actually breaks.
+            We&apos;ve sat with the office PM and the field super. The lot moves faster than the spreadsheet. Here&apos;s where the job site and the office disagree — and where the money leaks out.
           </p>
         </div>
 
@@ -91,10 +91,10 @@ export default function Workflow() {
                 Nothing talks to anything
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                Seven systems, one operation
+                Seven systems, no source of truth
               </h3>
               <p className="text-slate-500 leading-relaxed">
-                A lot lives across all of these on the same day. The office, the supervisor, the fab shop, and AP each work from a different copy of the truth.
+                A lot lives across all of these on the same day. The supervisor, the office, the fab shop, and AP each work from a different copy of the truth — and the job site is the only one that&apos;s real.
               </p>
             </div>
             <div className="flex flex-wrap gap-2 md:max-w-md">
