@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">PO-to-invoice project management for finish trade subs</span>
+            <span className="text-brand-700 text-sm font-medium">Project management for production-home subcontractors</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            One platform to run every lot —{' '}
-            <span className="text-brand-600">from PO to final invoice acceptance.</span>
+            Your supervisor knows the lot.{' '}
+            <span className="text-brand-600">Your office should too.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is the project management platform built for cabinet, countertop, door, and flooring supplier-installers working Lennar, D.R. Horton, and NVR tracts. PO review, takeoffs, scheduling, install, punch, draws, QuickBooks — one queue, every lot, no retyping.
+            Astor is the single source of truth from every job site — so your fab shop, dispatchers, and installers can release material, schedule visits, and bill draws with confidence. Built for cabinet, countertop, door, and flooring subs working Lennar, D.R. Horton, and NVR.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free 30-min consult &middot; Built around your master subs and builder portals &middot; No SaaS lock-in
+            Free 30-min teardown &middot; Built around your master subs and builder portals &middot; No platform lock-in
           </p>
         </div>
       </div>

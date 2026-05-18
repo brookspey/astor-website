@@ -46,10 +46,10 @@ export default function ContactContent() {
           className={`max-w-4xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Walk us through <span className="text-brand-600">one lot</span>
+            Trace <span className="text-brand-600">one lot</span> with us
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Bring your office PM or field super. We&apos;ll trace one lot from PO to draw and tell you where software actually fixes the rework — built for cabinet, countertop, door, and flooring subs on production-builder tracts.
+            Bring your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the gap between the job site and the office costs you most, and tell you whether software can close it — built for cabinet, countertop, door, and flooring subs on production-builder tracts.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Schedule a Consultation</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  Tell us about your builders, your master subs, and how a PO becomes a paid draw today. We&apos;ll point out where the rework lives. No pitch — just a conversation.
+                  Tell us about your builders, your master subs, and how the lot moves from the job site to the office today. We&apos;ll point out where the gap is biggest. No pitch — just a conversation.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -80,22 +80,22 @@ export default function ContactContent() {
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">1</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Trace one lot, PO to draw</p>
+                    <p className="text-slate-700 font-medium">Trace one lot, PO to paid draw</p>
                     <p className="text-slate-500 text-sm">Builder portal, master sub, takeoff, shop ticket, install, punch, draw</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">2</div>
                   <div>
-                    <p className="text-slate-700 font-medium">Name the leaks</p>
-                    <p className="text-slate-500 text-sm">Where retypes happen, where draws stall, where the supervisor&apos;s knowledge gets stuck</p>
+                    <p className="text-slate-700 font-medium">Name the gap</p>
+                    <p className="text-slate-500 text-sm">Where the job site moves faster than the office, where retypes happen, where draws stall, where supervisor knowledge gets stuck</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">3</div>
                   <div>
                     <p className="text-slate-700 font-medium">An honest answer</p>
-                    <p className="text-slate-500 text-sm">If software won&apos;t move the needle on your operation, we&apos;ll tell you. If it will, you&apos;ll see exactly what we&apos;d build first.</p>
+                    <p className="text-slate-500 text-sm">If software won&apos;t close the gap for your operation, we&apos;ll tell you. If it will, you&apos;ll see exactly what we&apos;d ship first.</p>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,7 @@ import { EMAIL, CALENDLY_URL, CTA_TEXT } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Meet the Team — Astor',
-  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building software for production-home finish trade subs.',
+  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building project management software for production-home finish-trade subs.',
 }
 
 export default function Team() {
@@ -25,8 +25,8 @@ export default function Team() {
             The people behind Astor
           </h1>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            We build software for finish trade subs running production-builder lots.
-            Here&apos;s who you&apos;ll be working with.
+            Astor is project management software built specifically for production-home
+            finish-trade subs. Here&apos;s the team behind it.
           </p>
         </div>
       </section>
@@ -84,10 +84,10 @@ export default function Team() {
                     multimillion-dollar operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
                   </p>
                   <p>
-                    That&apos;s why he built Astor. Not a SaaS platform. Not another portal.
-                    A team that builds software specifically for finish trade supplier-installers serving Lennar,
-                    D.R. Horton, NVR, and the rest — replacing the paper between the supervisor&apos;s clipboard,
-                    the office shop ticket, the builder portal, and QuickBooks.
+                    That&apos;s why he built Astor. Project management software built specifically for
+                    finish-trade supplier-installers serving Lennar, D.R. Horton, NVR, and the rest —
+                    one source of truth from the job site that closes the gap between the supervisor&apos;s
+                    clipboard, the office shop ticket, the builder portal, and QuickBooks.
                   </p>
                   <p>
                     Peyton holds an MBA from Duke University&apos;s Fuqua School of Business and has a background
@@ -158,11 +158,11 @@ export default function Team() {
       <section className="bg-brand-50 py-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            Walk us through one lot.
+            Trace one lot with us.
           </h2>
           <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
-            30 minutes with your office PM or field super. We&apos;ll trace one lot from PO to draw and tell you
-            where software actually moves the needle.
+            30 minutes with your office PM or field super. We&apos;ll trace one lot from PO to paid draw and show you
+            where the gap between the job site and the office costs you most.
           </p>
           <Link
             href="/contact"

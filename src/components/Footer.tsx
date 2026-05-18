@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Software for production-home finish trades.<br />
-              One queue from PO to draw.
+              The source of truth from every job site.<br />
+              Built for production-home finish-trade subs.
             </p>
           </div>
           <div>
