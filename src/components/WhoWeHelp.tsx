@@ -36,7 +36,7 @@ export default function WhoWeHelp() {
             Door and window supplier-installer subs
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Private, owner-run shops with 50–200 active lots and master subcontracts with 2–4 production builders. Office PM and field super carry the operation — and the pain.
+            Private, owner-run shops with 50–200 active lots running production-builder tracts. Office PM and field super carry the operation — and the pain.
           </p>
         </div>
 
