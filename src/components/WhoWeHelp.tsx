@@ -40,7 +40,7 @@ export default function WhoWeHelp() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 mb-16 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {TRADES.map((trade) => (
             <div
               key={trade.name}
@@ -53,28 +53,6 @@ export default function WhoWeHelp() {
               <p className="text-slate-500 text-sm leading-relaxed">{trade.description}</p>
             </div>
           ))}
-        </div>
-
-        {/* Customer signal row */}
-        <div className="bg-slate-50 border border-slate-100 rounded-2xl p-8 md:p-10">
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold text-brand-600 mb-1">50–200</div>
-              <div className="text-slate-500 text-sm">Active lots at any time</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-brand-600 mb-1">2–4</div>
-              <div className="text-slate-500 text-sm">Master subs with national builders</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-brand-600 mb-1">30–50%</div>
-              <div className="text-slate-500 text-sm">Annual growth, demand not the problem</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-brand-600 mb-1">Multi-visit</div>
-              <div className="text-slate-500 text-sm">Template, install, punch — every lot</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
