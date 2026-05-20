@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is the single source of truth from every job site — so your fab shop, dispatchers, and installers can release material, schedule visits, and bill draws with confidence. Built for door and window supplier-installer subs working Lennar, D.R. Horton, and NVR.
+            Your office PM and your field super work from the same lot record — so POs come in clean, every install visit lands on spec and on schedule, and bills get accepted the day they&apos;re issued. Built for door and window subs working for GCs like Lennar, D.R. Horton, and GL Homes.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
