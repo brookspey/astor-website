@@ -31,6 +31,11 @@ export const TRADES = [
     icon: 'floor',
     description: 'Square-foot takeoffs, material releases, and install scheduling tied to the lot’s real construction state.',
   },
+  {
+    name: 'Windows',
+    icon: 'window',
+    description: 'RO measurements, glass and grid orders, install routing, and warranty service calls — all on the same lot record.',
+  },
 ]
 
 // The places work breaks today — mapped to the operational steps a finish-trade

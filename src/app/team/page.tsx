@@ -80,7 +80,7 @@ export default function Team() {
                   <p>
                     He saw firsthand how custom software could transform operations at scale. But he also noticed
                     something: the businesses that needed it the most — privately-owned residential subs running
-                    cabinets, countertops, doors, and flooring on production-builder tracts — were holding
+                    cabinets, countertops, doors, flooring, and windows on production-builder tracts — were holding
                     multimillion-dollar operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
                   </p>
                   <p>
