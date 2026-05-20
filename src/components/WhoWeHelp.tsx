@@ -4,34 +4,11 @@ import { TRADES } from '@/lib/constants'
 import { useInView } from '@/lib/useInView'
 
 const icons: Record<string, JSX.Element> = {
-  cabinet: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <rect x="4" y="3" width="16" height="18" rx="1.5" />
-      <path strokeLinecap="round" d="M4 12h16" />
-      <circle cx="10.5" cy="8" r="0.6" fill="currentColor" />
-      <circle cx="13.5" cy="8" r="0.6" fill="currentColor" />
-      <circle cx="10.5" cy="16" r="0.6" fill="currentColor" />
-      <circle cx="13.5" cy="16" r="0.6" fill="currentColor" />
-    </svg>
-  ),
-  counter: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18l-1 2H4l-1-2z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12v8m14-8v8M5 20h14" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3" />
-    </svg>
-  ),
   door: (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
       <rect x="6" y="3" width="12" height="18" rx="0.5" />
       <path strokeLinecap="round" d="M9 6h6M9 10h6M9 14h6" />
       <circle cx="15" cy="12" r="0.6" fill="currentColor" />
-    </svg>
-  ),
-  floor: (
-    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 7h18M3 12h18M3 17h18" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8 7v5m8-5v5M5 12v5m6-5v5m6-5v5" />
     </svg>
   ),
   window: (
@@ -56,14 +33,14 @@ export default function WhoWeHelp() {
             Who We Build For
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Residential supplier-installer subs in finish trades
+            Door and window supplier-installer subs
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
             Private, owner-run shops with 50–200 active lots and master subcontracts with 2–4 production builders. Office PM and field super carry the operation — and the pain.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 gap-6 mb-16 max-w-3xl mx-auto">
           {TRADES.map((trade) => (
             <div
               key={trade.name}

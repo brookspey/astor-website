@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is the single source of truth from every job site — so your fab shop, dispatchers, and installers can release material, schedule visits, and bill draws with confidence. Built for cabinet, countertop, door, flooring, and window subs working Lennar, D.R. Horton, and NVR.
+            Astor is the single source of truth from every job site — so your fab shop, dispatchers, and installers can release material, schedule visits, and bill draws with confidence. Built for door and window supplier-installer subs working Lennar, D.R. Horton, and NVR.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

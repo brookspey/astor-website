@@ -79,13 +79,13 @@ export default function Team() {
                   </p>
                   <p>
                     He saw firsthand how custom software could transform operations at scale. But he also noticed
-                    something: the businesses that needed it the most — privately-owned residential subs running
-                    cabinets, countertops, doors, flooring, and windows on production-builder tracts — were holding
-                    multimillion-dollar operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
+                    something: the businesses that needed it the most — privately-owned door and window
+                    supplier-installer subs on production-builder tracts — were holding multimillion-dollar
+                    operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
                   </p>
                   <p>
                     That&apos;s why he built Astor. Project management software built specifically for
-                    finish-trade supplier-installers serving Lennar, D.R. Horton, NVR, and the rest —
+                    door and window supplier-installers serving Lennar, D.R. Horton, NVR, and the rest —
                     one source of truth from the job site that closes the gap between the supervisor&apos;s
                     clipboard, the office shop ticket, the builder portal, and QuickBooks.
                   </p>

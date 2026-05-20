@@ -12,24 +12,9 @@ export const NAV_LINKS = [
 // site visits per lot on production-builder communities.
 export const TRADES = [
   {
-    name: 'Cabinets',
-    icon: 'cabinet',
-    description: 'Shop tickets, install sequencing, and punch tracking that actually match what the supervisor saw on the lot.',
-  },
-  {
-    name: 'Countertops',
-    icon: 'counter',
-    description: 'Template-to-install workflows that survive cabinet changes, builder reroutes, and last-minute SKU swaps.',
-  },
-  {
     name: 'Doors & Trim',
     icon: 'door',
     description: 'Takeoffs, prehang schedules, and field changes captured once — without a clipboard or a retype.',
-  },
-  {
-    name: 'Flooring',
-    icon: 'floor',
-    description: 'Square-foot takeoffs, material releases, and install scheduling tied to the lot’s real construction state.',
   },
   {
     name: 'Windows',
@@ -58,7 +43,7 @@ export const BREAKS = [
   },
   {
     title: 'Handwritten takeoffs cause the most rework',
-    body: 'Paper from the truck → retyped into the shop ticket → wrong cabinet ships. The retype is where the money leaks out.',
+    body: 'Paper from the truck → retyped into the shop ticket → wrong unit ships. The retype is where the money leaks out.',
     step: 'Takeoff',
   },
   {
