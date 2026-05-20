@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Astor — Source of Truth for Production-Home Subcontractors',
-  description: 'Astor is project management software for cabinet, countertop, door, flooring, and window supplier-installer subs. One source of truth from every job site — so the office can fabricate and dispatch with confidence.',
+  description: 'Astor is project management software for door and window supplier-installer subs. One source of truth from every job site — so the office can fabricate and dispatch with confidence.',
   metadataBase: new URL('https://tryastor.com'),
   openGraph: {
     title: 'Astor — Source of Truth for Production-Home Subcontractors',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Astor — Source of Truth for Production-Home Subcontractors',
-    description: 'Project management for cabinet, countertop, door, flooring, and window subs on production-builder tracts.',
+    description: 'Project management for door and window subs on production-builder tracts.',
   },
 }
 
