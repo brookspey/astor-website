@@ -5,7 +5,7 @@ import ContactContent from './ContactContent'
 
 export const metadata: Metadata = {
   title: 'Contact — Astor',
-  description: 'Schedule a free 30-minute consult. Trace one lot with us — we\'ll show you where the gap between the job site and the office costs you most.',
+  description: 'Schedule a free 30-minute consult. Trace one lot with us — we\'ll show you where the gap between the job site and the office costs you most. Built for cabinet, countertop, door, flooring, and window subs.',
 }
 
 export default function ContactPage() {

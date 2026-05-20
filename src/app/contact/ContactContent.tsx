@@ -49,7 +49,7 @@ export default function ContactContent() {
             Trace <span className="text-brand-600">one lot</span> with us
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Bring your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the gap between the job site and the office costs you most, and tell you whether software can close it — built for cabinet, countertop, door, and flooring subs on production-builder tracts.
+            Bring your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the gap between the job site and the office costs you most, and tell you whether software can close it — built for cabinet, countertop, door, flooring, and window subs on production-builder tracts.
           </p>
         </div>
       </section>

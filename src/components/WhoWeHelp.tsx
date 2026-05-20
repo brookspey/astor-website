@@ -34,6 +34,12 @@ const icons: Record<string, JSX.Element> = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M8 7v5m8-5v5M5 12v5m6-5v5m6-5v5" />
     </svg>
   ),
+  window: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="1" />
+      <path strokeLinecap="round" d="M12 3v18M3 12h18" />
+    </svg>
+  ),
 }
 
 export default function WhoWeHelp() {
@@ -57,7 +63,7 @@ export default function WhoWeHelp() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-16">
           {TRADES.map((trade) => (
             <div
               key={trade.name}
