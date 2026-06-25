@@ -21,6 +21,21 @@ export const TRADES = [
     icon: 'window',
     description: 'RO measurements, glass and grid orders, install routing, and warranty service calls — all on the same lot record.',
   },
+  {
+    name: 'Plumbing',
+    icon: 'plumbing',
+    description: 'Rough-in, trim-out, and final stages tracked per lot — fixture releases and inspections that match the build.',
+  },
+  {
+    name: 'Electrical',
+    icon: 'electrical',
+    description: 'Rough, trim, and final visits sequenced against real lot status — panel schedules and change orders captured once.',
+  },
+  {
+    name: 'HVAC',
+    icon: 'hvac',
+    description: 'Set, rough, and start-up phases coordinated with the build — equipment releases and inspections without the guesswork.',
+  },
 ]
 
 // The places work breaks today — mapped to the operational steps a finish-trade

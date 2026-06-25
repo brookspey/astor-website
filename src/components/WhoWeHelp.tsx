@@ -17,6 +17,24 @@ const icons: Record<string, JSX.Element> = {
       <path strokeLinecap="round" d="M12 3v18M3 12h18" />
     </svg>
   ),
+  plumbing: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7 4v6a5 5 0 0 0 5 5h0a5 5 0 0 1 5 5v0" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h6M14 20h6" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M17 18l3 2-3 2" />
+    </svg>
+  ),
+  electrical: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M13 2L4 14h7l-2 8 9-12h-7l2-8z" />
+    </svg>
+  ),
+  hvac: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="2" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 10c0-4 1-6 3-6s2 3-1 5M14 12c4 0 6 1 6 3s-3 2-5-1M12 14c0 4-1 6-3 6s-2-3 1-5M10 12c-4 0-6-1-6-3s3-2 5 1" />
+    </svg>
+  ),
 }
 
 export default function WhoWeHelp() {
@@ -33,14 +51,14 @@ export default function WhoWeHelp() {
             Who We Build For
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Door and window supplier-installer subs
+            Supplier-installer subs in finish and mechanical trades
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Private, owner-run shops with 50–200 active lots running production-builder tracts. Office PM and field super carry the operation — and the pain.
+            Private, owner-run shops that visit each lot 3–5 times across the build cycle — rough, trim, install, and punch. With 50–200 active lots running production-builder tracts, the office PM and field super carry the operation — and the pain.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {TRADES.map((trade) => (
             <div
               key={trade.name}
