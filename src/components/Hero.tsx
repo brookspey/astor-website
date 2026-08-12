@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Astor is built for residential production home subcontractors — owner-run shops that hit every lot three to five times across hundreds of production-builder lots. Hyphen dates are never accurate, and scheduling is still manual and disjointed, so things fall through the cracks. Astor is the source of truth: one record per lot where the office and your field super finally agree, a schedule that follows what&apos;s actually on-site, and every visit logged so you get paid and can prove the work.
+            Astor is built for residential production home subcontractors — owner-run shops that hit every lot three to five times across hundreds of production-builder lots. Hyphen dates are never accurate, and scheduling is still manual and disjointed, so work falls through the cracks. Astor is the source of truth: one record per lot where the office and your field super finally agree, a schedule that follows what&apos;s actually on-site, and every visit logged so you get paid and can prove the work.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
