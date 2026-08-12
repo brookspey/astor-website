@@ -39,6 +39,9 @@ export default function Footer() {
               <Link href="/support" className="block hover:text-slate-600 transition">
                 Support
               </Link>
+              <Link href="/privacy" className="block hover:text-slate-600 transition">
+                Privacy
+              </Link>
               <p>Palm Beach County, FL</p>
             </div>
           </div>
