@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">Project management for production-home subcontractors</span>
+            <span className="text-brand-700 text-sm font-medium">The subcontractor&apos;s side of Hyphen</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            Run every lot from one place —{' '}
-            <span className="text-brand-600">PO to paid draw.</span>
+            Hyphen was built for the builder.{' '}
+            <span className="text-brand-600">Astor is built for the sub.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            Your office PM and your field super work from the same lot record — so POs come in clean, every install visit lands on spec and on schedule, and bills get accepted the day they&apos;re issued. Built for door and window subs working for GCs like Lennar, D.R. Horton, and GL Homes.
+            You didn&apos;t pick Hyphen — the builder did, and BuildPro and SupplyPro were never built to run your side of the job. Astor gives the sub its own source of truth: one record per lot where the office and your field super finally agree — a schedule that follows what&apos;s actually on-site instead of the builder&apos;s fiction, and every visit logged so you get paid and can prove the work. Built for residential production home subcontractors.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free 30-min teardown &middot; Built around your master subs and builder portals &middot; No platform lock-in
+            Free 30-min lot teardown &middot; Sits on top of Hyphen — nothing to rip out &middot; No platform lock-in
           </p>
         </div>
       </div>

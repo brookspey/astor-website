@@ -8,97 +8,104 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '/contact' },
 ]
 
-// The trades we build for: residential supplier-installer subs running multiple
-// site visits per lot on production-builder communities.
+// The trades we build for: residential supplier-installer subs forced onto the
+// builder's portal (Hyphen / BuildPro / SupplyPro) who run multiple site visits
+// per lot on production-builder communities.
 export const TRADES = [
   {
     name: 'Doors & Trim',
     icon: 'door',
-    description: 'Takeoffs, prehang schedules, and field changes captured once — without a clipboard or a retype.',
+    description: 'Deliver, install, and punch across exterior, trim, and final — swings, prehang counts, and field changes captured once, not retyped off a drive sheet.',
   },
   {
     name: 'Windows',
     icon: 'window',
-    description: 'RO measurements, glass and grid orders, install routing, and warranty service calls — all on the same lot record.',
+    description: 'RO measures, glass and grid orders, install routing, and warranty service calls — on one lot record instead of four inboxes.',
   },
   {
     name: 'Plumbing',
     icon: 'plumbing',
-    description: 'Rough-in, trim-out, and final stages tracked per lot — fixture releases and inspections that match the build.',
+    description: 'Rough-in, trim-out, and set — fixture releases and inspections tracked against what’s on-site, not the builder’s date.',
   },
   {
     name: 'Electrical',
     icon: 'electrical',
-    description: 'Rough, trim, and final visits sequenced against real lot status — panel schedules and change orders captured once.',
+    description: 'Rough, trim, and final trips sequenced against real lot readiness — panel schedules and change orders caught before fab, not after.',
   },
   {
     name: 'HVAC',
     icon: 'hvac',
-    description: 'Set, rough, and start-up phases coordinated with the build — equipment releases and inspections without the guesswork.',
+    description: 'Set, rough, and start-up phases coordinated with the build — equipment releases and inspections without chasing the schedule.',
+  },
+  {
+    name: 'Roofing',
+    icon: 'roofing',
+    description: 'Dry-in and finish trips scheduled off real lot status — loads staged to what’s framed and ready, not what Hyphen guessed last week.',
+  },
+  {
+    name: 'Drywall',
+    icon: 'drywall',
+    description: 'Hang, finish, and punch tracked lot by lot — crews routed to the lots that are actually ready, with the back-charges documented.',
   },
 ]
 
-// The places work breaks today — mapped to the operational steps a finish-trade
+// The places work breaks today — mapped to the operational steps a production
 // sub runs every day, from PO arrival to draw collection. Each entry pairs the
-// gap (what breaks) with the close (what Astor does about it).
+// gap (what breaks, in the crew's own words) with the close (what Astor does).
 export const BREAKS = [
   {
-    title: 'The builder portal is lying to you',
-    body: 'SupplyPro and Hyphen dates drift from the lot every week. Your office is scheduling against fiction while your supervisor knows the truth.',
-    solution: 'Lot status comes from your field super, not the portal. The office sees what’s actually happening on the lot today — not what Hyphen said was supposed to happen yesterday.',
+    title: 'The builder’s portal is lying to you',
+    body: 'SupplyPro says a lot won’t be ready till next Tuesday. Your super is standing in it today — cabinets in, ready to trim. The office schedules off the portal; the field knows the truth.',
+    solution: 'Lot status comes from your field super’s drive, not the portal. The office sees what’s on-site today — not what Hyphen said yesterday.',
     step: 'Ground truth',
   },
   {
-    title: 'Your supervisor’s knowledge is trapped in their head',
-    body: 'When they’re sick, on PTO, or quit, the lot history walks out with them. New hires take six months to ramp.',
-    solution: 'Every visit, spec check, and status update is logged to the lot record. When a super takes PTO or moves on, the next person picks up the lot — not a notebook.',
+    title: 'It all lives in your super’s head',
+    body: 'The real schedule, the door swings, which lots are actually ready — it’s on the drive sheet and in one person’s head. They take PTO or quit, and the lot history walks out with them.',
+    solution: 'Every visit, spec check, and status update is logged to the lot. When a super is out, the next person picks up the lot — not a notebook.',
     step: 'Field knowledge',
   },
   {
-    title: 'POs come in wrong — and you catch it by eye',
-    body: 'Bad SKUs, stale rates, missing options. The office reconciles every PO against the master by hand, line by line.',
-    solution: 'Astor pipes Hyphen POs in and compares each one to your master contract automatically. The office PM sees mismatches at the top of the screen and accepts the rest in one click.',
-    step: 'PO review',
-  },
-  {
-    title: 'Handwritten takeoffs cause the most rework',
-    body: 'Paper from the truck → retyped into the shop ticket → wrong unit ships. The retype is where the money leaks out.',
-    solution: 'The field super verifies ordered specs against the actual lot inside Astor before fab releases. Mismatches surface in time to fix — not on install day.',
+    title: 'Handwritten takeoffs are where the money leaks',
+    body: 'Paper off the truck → retyped into a shop ticket → wrong unit ships. The retype is where it goes wrong — and you eat the back-charge.',
+    solution: 'The field super verifies ordered specs against the real lot inside Astor before fab releases. Mismatches surface in time to fix — not on install day.',
     step: 'Takeoff',
   },
   {
     title: 'Scheduling is a babysat spreadsheet',
-    body: 'One person owns the board. Every builder reroute, weather day, and trade-stack collision rebuilds it from scratch.',
-    solution: 'Astor coordinates all four install visits — exterior, interior, hardware, punch-out — against the lot’s real readiness. The office and the super work from the same view.',
+    body: 'One person owns the board. Every builder reroute, weather day, and trade-stack collision rebuilds it from scratch — and the installers still get it late, in the wrong language.',
+    solution: 'Astor coordinates every visit — deliver, install, punch — against the lot’s real readiness, and pushes the installer schedule in English or Spanish. The office and the super work the same view.',
     step: 'Schedule',
   },
   {
-    title: 'Three issue streams, zero queues',
-    body: 'Builder QA, supervisor punch, homeowner warranty — all on paper, all in different inboxes, none in one list.',
-    solution: 'Supervisors build punch lists in Astor as the lot progresses. One queue per lot — not three inboxes for the office to chase.',
+    title: 'You hear about problems too late',
+    body: 'A bad frame, missing glass, a builder recordable that says “not done” — it’s buried in Hyphen, a text, or a phone call. Nobody sees what’s actually open on a lot until it’s a callback or a blown date.',
+    solution: 'Every open issue lands on the lot the moment it’s logged — builder recordables, your super’s field flags, and punch — so the office and the super see what’s wrong on a lot at a glance, not after it’s a fire.',
+    step: 'Open issues',
+  },
+  {
+    title: 'Three punch lists, zero queues',
+    body: 'Builder QA and recordables, your super’s own punch, homeowner warranty — all on paper, all in different inboxes, and the builder only lets you log one item at a time.',
+    solution: 'Supervisors build punch lists in Astor as the lot moves. Builder punch and your punch, aggregated into one queue per lot — not three inboxes to chase.',
     step: 'Punch & warranty',
   },
   {
-    title: 'Draws sit because the builder forgot to push',
-    body: 'Work is done, billable, and invisible. Your AP team is doing forensic work to figure out which lots are collectable.',
-    solution: 'When the builder issues to bill via Hyphen, Astor pipes it in for the office to accept. You see at a glance which lots are ready to bill — and which are stuck waiting on the builder.',
-    step: 'Draws',
-  },
-  {
-    title: 'No audit trail when work is challenged',
-    body: 'A bill-back lands two years later. The supervisor who installed it left last spring. You’re writing the check.',
-    solution: 'Every lot keeps its full history — who did what, when, with what spec. When a bill-back lands two years later, the record is sitting there waiting.',
-    step: 'Audit',
+    title: 'No proof when the work gets challenged',
+    body: 'A lawsuit or a bill-back lands years after the work is done. The super who installed it left, the homeowner never signed for the warranty visit, and you can’t prove a thing — so you eat it.',
+    solution: 'Every lot keeps a full audit trail — who did what, when, to what spec — and punch and warranty visits get signed off on-site. When a claim lands two years later, the signed record is already there to defend completed work.',
+    step: 'Audit trail',
   },
 ]
 
-// The connective tissue we replace — the tools and channels work bleeds out of today.
+// The connective tissue we replace — the tools, portals, and paper a single lot
+// bleeds across on the same day. None of it was built for the sub.
 export const DISCONNECTED_STACK = [
-  'Hyphen SupplyPro',
+  'BuildPro / SupplyPro',
   'Builder email POs',
-  'Shop ticket spreadsheets',
-  'Supervisor’s phone',
+  'The drive sheet',
+  'Excel delivery log',
+  'Handwritten shop tickets',
   'Fab board',
   'QuickBooks',
-  'WhatsApp threads',
+  'WhatsApp & group texts',
 ]

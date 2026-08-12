@@ -4,14 +4,13 @@ import { BREAKS, DISCONNECTED_STACK } from '@/lib/constants'
 import { useInView } from '@/lib/useInView'
 
 const FLOW = [
-  'PO arrives',
-  'Office reviews vs. master',
-  'Supervisor walks lot',
+  'PO hits SupplyPro',
+  'Super walks the lot',
   'Handwritten takeoff',
   'Shop ticket retype',
-  'Install',
+  'Deliver & install',
   'Punch-out',
-  'Draw filed',
+  'Draw accepted',
   'QuickBooks',
 ]
 
@@ -30,10 +29,10 @@ export default function Workflow() {
             The gap and the close
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Eight places the lot and the office disagree. Astor closes every one.
+            Seven places Hyphen leaves you hanging. Astor closes every one.
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            We&apos;ve sat with the office PM and the field super. Here&apos;s where the job site and the office disagree today — and how Astor puts them on the same record.
+            We sat in the shop with the office PM and the field super. Here&apos;s where the builder&apos;s portal, the drive sheet, and the office each tell a different story — and how Astor puts them on one record.
           </p>
         </div>
 
@@ -108,10 +107,10 @@ export default function Workflow() {
                 Nothing talks to anything
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                Seven systems, no source of truth
+                Eight systems, none of them yours
               </h3>
               <p className="text-slate-500 leading-relaxed">
-                A lot lives across all of these on the same day. The supervisor, the office, the fab shop, and AP each work from a different copy of the truth — and the job site is the only one that&apos;s real.
+                A single lot lives across every one of these on the same day. The super, the office, the fab shop, and AP each work from a different copy — and the only one that&apos;s real is the job site.
               </p>
             </div>
             <div className="flex flex-wrap gap-2 md:max-w-md">

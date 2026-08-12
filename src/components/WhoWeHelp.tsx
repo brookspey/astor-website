@@ -35,6 +35,20 @@ const icons: Record<string, JSX.Element> = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 10c0-4 1-6 3-6s2 3-1 5M14 12c4 0 6 1 6 3s-3 2-5-1M12 14c0 4-1 6-3 6s-2-3 1-5M10 12c-4 0-6-1-6-3s3-2 5 1" />
     </svg>
   ),
+  roofing: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M2 12L12 4l10 8" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 11v8h14v-8" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10 19v-4h4v4" />
+    </svg>
+  ),
+  drywall: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <rect x="3" y="4" width="8" height="16" rx="0.5" />
+      <rect x="13" y="4" width="8" height="16" rx="0.5" />
+      <path strokeLinecap="round" d="M6 9l2 2-2 2M18 9l-2 2 2 2" />
+    </svg>
+  ),
 }
 
 export default function WhoWeHelp() {
@@ -51,10 +65,10 @@ export default function WhoWeHelp() {
             Who We Build For
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Supplier-installer subs in finish and mechanical trades
+            Subs who hit every lot three to five times — and live in Hyphen
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Private, owner-run shops that visit each lot 3–5 times across the build cycle — rough, trim, install, and punch. With 50–200 active lots running production-builder tracts, the office PM and field super carry the operation — and the pain.
+            Privately-owned, owner-run shops that touch each lot three to five times across the build — deliver, install, punch, warranty. You run 50–200 active lots across production-builder tracts, and the whole operation rides on your office PM and your field supers: the drive sheet, the paper tickets, the group texts. That&apos;s who we build for.
           </p>
         </div>
 

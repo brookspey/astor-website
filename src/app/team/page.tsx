@@ -7,7 +7,7 @@ import { EMAIL, CALENDLY_URL, CTA_TEXT } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Meet the Team — Astor',
-  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building project management software for production-home finish-trade subs.',
+  description: 'Meet Peyton Brooks, founder of Astor. Former AI product leader at Informed.IQ (JPMorgan, Wells Fargo, Capital One). Duke MBA. Now building the source of truth for residential production home subcontractors.',
 }
 
 export default function Team() {
@@ -25,8 +25,8 @@ export default function Team() {
             The people behind Astor
           </h1>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Astor is project management software built specifically for production-home
-            finish-trade subs. Here&apos;s the team behind it.
+            Astor is the source of truth built specifically for residential production
+            home subcontractors. Here&apos;s the team behind it.
           </p>
         </div>
       </section>
@@ -79,14 +79,14 @@ export default function Team() {
                   </p>
                   <p>
                     He saw firsthand how custom software could transform operations at scale. But he also noticed
-                    something: the businesses that needed it the most — privately-owned door and window
-                    supplier-installer subs on production-builder tracts — were holding multimillion-dollar
+                    something: the businesses that needed it the most — privately-owned subcontractors
+                    on production-builder tracts — were holding multimillion-dollar
                     operations together with handwritten takeoffs, spreadsheets, and WhatsApp threads.
                   </p>
                   <p>
-                    That&apos;s why he built Astor. Project management software built specifically for
-                    door and window supplier-installers serving Lennar, D.R. Horton, NVR, and the rest —
-                    one source of truth from the job site that closes the gap between the supervisor&apos;s
+                    That&apos;s why he built Astor. The source of truth built specifically for
+                    residential production home subcontractors serving Lennar, D.R. Horton, GL Homes, and the rest —
+                    one record per lot that closes the gap between the supervisor&apos;s
                     clipboard, the office shop ticket, the builder portal, and QuickBooks.
                   </p>
                   <p>

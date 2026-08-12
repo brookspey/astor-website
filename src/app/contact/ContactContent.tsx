@@ -49,7 +49,7 @@ export default function ContactContent() {
             Trace <span className="text-brand-600">one lot</span> with us
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Bring your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the gap between the job site and the office costs you most, and tell you whether software can close it — built for door and window subs on production-builder tracts.
+            Bring your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the gap between the job site and the office costs you most, and tell you whether software can close it — built for residential production home subcontractors.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function ContactContent() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Schedule a Consultation</h2>
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-8 mb-8">
                 <p className="text-slate-700 mb-6 leading-relaxed">
-                  Tell us about your builders, your master subs, and how the lot moves from the job site to the office today. We&apos;ll point out where the gap is biggest. No pitch — just a conversation.
+                  Tell us about your trade, your builders, and how the lot moves from the job site to the office today. We&apos;ll point out where the gap is biggest. No pitch — just a conversation.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -81,7 +81,7 @@ export default function ContactContent() {
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-600 font-bold text-sm flex-shrink-0">1</div>
                   <div>
                     <p className="text-slate-700 font-medium">Trace one lot, PO to paid draw</p>
-                    <p className="text-slate-500 text-sm">Builder portal, master sub, takeoff, shop ticket, install, punch, draw</p>
+                    <p className="text-slate-500 text-sm">Builder portal, drive sheet, takeoff, shop ticket, install, punch, draw</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

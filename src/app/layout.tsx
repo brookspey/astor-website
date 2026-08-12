@@ -2,20 +2,20 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Astor — Source of Truth for Production-Home Subcontractors',
-  description: 'Astor is project management software for door and window supplier-installer subs. One source of truth from every job site — so the office can fabricate and dispatch with confidence.',
+  title: 'Astor — The Subcontractor’s Side of Hyphen',
+  description: 'Astor is the source of truth built for residential production home subcontractors. Hyphen was built for the builder — Astor is built for the sub: one record per lot where the office and the field finally agree.',
   metadataBase: new URL('https://tryastor.com'),
   openGraph: {
-    title: 'Astor — Source of Truth for Production-Home Subcontractors',
-    description: 'One source of truth from every job site, so your fab shop and dispatchers can release material and bill draws with confidence.',
+    title: 'Astor — The Subcontractor’s Side of Hyphen',
+    description: 'Hyphen was built for the builder. Astor is built for the sub — one record per lot where the office and your field super finally agree, so you get paid and can prove the work.',
     url: 'https://tryastor.com',
     siteName: 'Astor',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Astor — Source of Truth for Production-Home Subcontractors',
-    description: 'Project management for door and window subs on production-builder tracts.',
+    title: 'Astor — The Subcontractor’s Side of Hyphen',
+    description: 'The source of truth for residential production home subcontractors.',
   },
 }
 

@@ -12,8 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              The source of truth from every job site.<br />
-              Built for production-home finish-trade subs.
+              The subcontractor&apos;s side of Hyphen.<br />
+              Built for residential production home subcontractors.
             </p>
           </div>
           <div>
