@@ -29,7 +29,7 @@ export default function Workflow() {
             The gap and the close
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Seven places Hyphen leaves you hanging. Astor closes every one.
+            Seven places the job site and the office fall apart. Astor closes every one.
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
             We sat in the shop with the office PM and the field super. Here&apos;s where the builder&apos;s portal, the drive sheet, and the office each tell a different story — and how Astor puts them on one record.

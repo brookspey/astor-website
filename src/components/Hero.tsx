@@ -20,16 +20,16 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-brand-50 border border-brand-200 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 bg-brand-500 rounded-full" />
-            <span className="text-brand-700 text-sm font-medium">The subcontractor&apos;s side of Hyphen</span>
+            <span className="text-brand-700 text-sm font-medium">For residential production home subcontractors</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[4.25rem] font-bold text-slate-900 leading-[1.1] mb-6">
-            Hyphen was built for the builder.{' '}
-            <span className="text-brand-600">Astor is built for the sub.</span>
+            Your field super knows what&apos;s on-site.{' '}
+            <span className="text-brand-600">Your office is still guessing.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 max-w-xl leading-relaxed mb-10">
-            You didn&apos;t pick Hyphen — the builder did, and BuildPro and SupplyPro were never built to run your side of the job. Astor gives the sub its own source of truth: one record per lot where the office and your field super finally agree — a schedule that follows what&apos;s actually on-site instead of the builder&apos;s fiction, and every visit logged so you get paid and can prove the work. Built for residential production home subcontractors.
+            Astor is built for residential production home subcontractors — owner-run shops that hit every lot three to five times (deliver, install, punch, warranty) across hundreds of production-builder lots. The portal, the drive sheet, and the shop ticket each tell a different story. Astor is the source of truth: one record per lot where the office and your field super finally agree, a schedule that follows what&apos;s actually on-site, and every visit logged so you get paid and can prove the work.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-400 text-sm mt-6">
-            Free 30-min lot teardown &middot; Sits on top of Hyphen — nothing to rip out &middot; No platform lock-in
+            Free 30-min lot teardown &middot; Works with the builder&apos;s portal — nothing to rip out &middot; No platform lock-in
           </p>
         </div>
       </div>

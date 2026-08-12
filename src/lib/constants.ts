@@ -40,7 +40,7 @@ export const TRADES = [
   {
     name: 'Roofing',
     icon: 'roofing',
-    description: 'Dry-in and finish trips scheduled off real lot status — loads staged to what’s framed and ready, not what Hyphen guessed last week.',
+    description: 'Dry-in and finish trips scheduled off real lot status — loads staged to what’s framed and ready, not what the builder’s schedule guessed last week.',
   },
   {
     name: 'Drywall',
@@ -56,7 +56,7 @@ export const BREAKS = [
   {
     title: 'The builder’s portal is lying to you',
     body: 'SupplyPro says a lot won’t be ready till next Tuesday. Your super is standing in it today — cabinets in, ready to trim. The office schedules off the portal; the field knows the truth.',
-    solution: 'Lot status comes from your field super’s drive, not the portal. The office sees what’s on-site today — not what Hyphen said yesterday.',
+    solution: 'Lot status comes from your field super’s drive, not the portal. The office sees what’s on-site today — not what the builder’s record said yesterday.',
     step: 'Ground truth',
   },
   {
@@ -79,7 +79,7 @@ export const BREAKS = [
   },
   {
     title: 'You hear about problems too late',
-    body: 'A bad frame, missing glass, a builder recordable that says “not done” — it’s buried in Hyphen, a text, or a phone call. Nobody sees what’s actually open on a lot until it’s a callback or a blown date.',
+    body: 'A bad frame, missing glass, a builder recordable that says “not done” — it’s buried in the portal, a text, or a phone call. Nobody sees what’s actually open on a lot until it’s a callback or a blown date.',
     solution: 'Every open issue lands on the lot the moment it’s logged — builder recordables, your super’s field flags, and punch — so the office and the super see what’s wrong on a lot at a glance, not after it’s a fire.',
     step: 'Open issues',
   },
@@ -100,7 +100,7 @@ export const BREAKS = [
 // The connective tissue we replace — the tools, portals, and paper a single lot
 // bleeds across on the same day. None of it was built for the sub.
 export const DISCONNECTED_STACK = [
-  'BuildPro / SupplyPro',
+  'Hyphen / BuildPro / SupplyPro',
   'Builder email POs',
   'The drive sheet',
   'Excel delivery log',

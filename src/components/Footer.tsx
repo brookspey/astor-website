@@ -12,8 +12,7 @@ export default function Footer() {
               <span className="text-lg font-bold text-slate-900">Astor</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              The subcontractor&apos;s side of Hyphen.<br />
-              Built for residential production home subcontractors.
+              The source of truth for residential production home subcontractors.
             </p>
           </div>
           <div>

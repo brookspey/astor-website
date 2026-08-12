@@ -65,10 +65,10 @@ export default function WhoWeHelp() {
             Who We Build For
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-5">
-            Subs who hit every lot three to five times — and live in Hyphen
+            Residential production home subcontractors
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Privately-owned, owner-run shops that touch each lot three to five times across the build — deliver, install, punch, warranty. You run 50–200 active lots across production-builder tracts, and the whole operation rides on your office PM and your field supers: the drive sheet, the paper tickets, the group texts. That&apos;s who we build for.
+            Privately-owned, owner-run shops that touch each lot three to five times across the build — deliver, install, punch, warranty. You run hundreds of active lots across production-builder tracts, and the whole operation rides on your office PM and your field supers: the drive sheet, the paper tickets, the group texts. That&apos;s who we build for.
           </p>
         </div>
 

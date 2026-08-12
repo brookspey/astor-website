@@ -14,7 +14,7 @@ export default function CTA() {
         className={`max-w-3xl mx-auto px-6 text-center fade-in-up ${isVisible ? 'visible' : ''}`}
       >
         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">
-          Trace one lot with us. We&apos;ll show you where Hyphen leaves money on the table.
+          Trace one lot with us. We&apos;ll show you where the gap costs you.
         </h2>
         <p className="text-slate-500 text-lg mb-10 leading-relaxed max-w-xl mx-auto">
           30 minutes with your office PM or field super. We&apos;ll trace one lot from PO to paid draw, name where the office is flying blind, and tell you whether software can close the gap — straight, no pitch.
