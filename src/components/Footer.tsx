@@ -36,6 +36,9 @@ export default function Footer() {
               <a href={`mailto:${EMAIL}`} className="block hover:text-slate-600 transition">
                 {EMAIL}
               </a>
+              <Link href="/support" className="block hover:text-slate-600 transition">
+                Support
+              </Link>
               <p>Palm Beach County, FL</p>
             </div>
           </div>
